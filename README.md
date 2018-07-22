@@ -1,6 +1,6 @@
-# VHF2017-website
+# VHF2018-website
 
-> The official VandyHacks site. For registration, see [VHF2017-registration](https://github.com/VandyHacks/VHF2017-registration).
+> The official VandyHacks site. For registration, see [VHF2018-registration](https://github.com/VandyHacks/VHF2018-registration).
 
 ## Build Setup
 

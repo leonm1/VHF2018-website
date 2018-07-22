@@ -63,7 +63,7 @@
 <template>
     <div class="row">
         <div class="sched-col">
-            <h3 class="date">Friday, October 20th</h3>
+            <h3 class="date">Friday, November 2nd</h3>
             <div class="events">
                 <div class="event">
                     <div class="event-name">Check-in</div>
@@ -100,7 +100,7 @@
             </div>
         </div>
         <div class="sched-col">
-            <h3 class="date">Saturday, October 21st</h3>
+            <h3 class="date">Saturday, November 3rd</h3>
             <div class="events">
                 <div class="event">
                     <div class="event-name">Midnight Snack</div>
@@ -137,7 +137,7 @@
             </div>
         </div>
         <div class="sched-col">
-            <h3 class="date">Sunday, October 22nd</h3>
+            <h3 class="date">Sunday, November 4th</h3>
             <div class="events">
                 <div class="event">
                     <div class="event-name">Midnight Snack</div>
