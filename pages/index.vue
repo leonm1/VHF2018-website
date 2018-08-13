@@ -33,7 +33,6 @@
           <p>For 36 hours, participants will work together to bring their ideas to life - and have lots of fun doing it! VandyHacks welcomes beginners, and we encourage all students to apply, regardless of their major or background.</p>
         </div>
       </div>
-      <googlemap/>
       <div class="schedule feature-block">
         <div class="text-contents">
           <h1>Schedule</h1>
@@ -134,7 +133,6 @@ import MlhBadge from '~/components/MlhBadge.vue'
 import Separator from '~/components/Separator.vue'
 import Schedule from '~/components/Schedule.vue'
 import FaqItem from '~/components/FaqItem.vue'
-import GoogleMap from '~/components/GoogleMap.vue'
 import Sponsors from '~/components/Sponsors.vue'
 import Footer from '~/components/Footer.vue'
 
@@ -148,7 +146,6 @@ export default {
     schedule: Schedule,
     faqitem: FaqItem,
     batmanbuilding: BatmanBuilding,
-    googlemap: GoogleMap,
     sponsors: Sponsors,
     sitefooter: Footer
   },
