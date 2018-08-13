@@ -11,7 +11,7 @@
       -->
       <div class="parallax-layer deep">
         <div class="logo">
-          <img alt="VandyHacks V" src="~assets/img/Logo Outline.svg" />
+          <img alt="VandyHacks V" src="~assets/img/Logo Outline.svg"/>
           <div class="actions">
             <a ontouchstart="" class="apply-btn" href="https://vandyhacksiv.devpost.com/submissions">View Winners</a>
           </div>
@@ -26,24 +26,23 @@
     <div class="parallax-layer base page-content">
       <div class="description feature-block">
         <div class="text-contents">
-          <h1>Welcome to VandyHacks V</h1>
-          <separator white/>
-          <p>Founded in the spring of 2015, VandyHacks was the first collegiate hackathon to call Nashville, Tennessee home. Now, we're proud to bring you VandyHacks V! From November 2-4, 2018, 400+ students from colleges and universities across the nation will gather at Vanderbilt University’s Engineering and Science Building for a weekend of collaboration, innovation, and entrepreneurship.</p>
+          <h1>WELCOME</h1>
+          <separator/>
+          <p>Founded in the spring of 2015, VandyHacks was the first collegiate hackathon to call Nashville, 
+            Tennessee home. Now, we're proud to bring you VandyHacks V! From November 2-4, 2018, 450+ 
+            students from colleges and universities across the nation will gather at Vanderbilt 
+            University’s Engineering and Science Building for a weekend of collaboration, innovation, 
+            and entrepreneurship.</p>
           &nbsp;
-          <p>For 36 hours, participants will work together to bring their ideas to life - and have lots of fun doing it! VandyHacks welcomes beginners, and we encourage all students to apply, regardless of their major or background.</p>
-        </div>
-      </div>
-      <div class="schedule feature-block">
-        <div class="text-contents">
-          <h1>Schedule</h1>
-          <separator white/>
-          <schedule/>
+          <p>For 36 hours, participants will work together to bring their ideas to life - and have lots 
+            of fun doing it! VandyHacks welcomes beginners, and we encourage all students to apply, 
+            regardless of their major or background.</p>
         </div>
       </div>
       <div class="faq feature-block">
         <div class="text-contents">
           <h1>FAQ</h1>
-          <separator white/>
+          <separator/>
           <div class="row">
             <div class="col-sm-6 col-md-6 faq-col">
               <h3 class="faq-header">General</h3>
@@ -113,13 +112,20 @@
           </div>
         </div>
       </div>
+      <div class="schedule feature-block">
+        <div class="text-contents">
+          <h1>SCHEDULE</h1>
+          <separator/>
+          <schedule/>
+        </div>
+      </div>
       <div class="sponsors feature-block">
         <div class="text-contents">
           <h1>Sponsors</h1>
           <separator/>
           <sponsors/> &nbsp;
-          <h3 class="sponsor-info">If you're interested in sponsoring VandyHacks, please email us at
-            <a href="mailto:sponsor@vandyhacks.org">sponsor@vandyhacks.org</a>
+          <h3 class="sponsor-info">Interested in being a sponsor? Check out our
+            <a href="/sponsorship">[BROKEN LINK] sponsorship prospectus</a>!
           </h3>
         </div>
       </div>
@@ -164,13 +170,17 @@ export default {
 @import '~assets/scss/breakpoints.scss';
 
 html {
-  background-color: #2a1577;
+  /*background-color: #2a1577;*/
+  background: #005C97;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 // There are offset issues on Chrome desktop, most noticeable at extremely low widths
 // Do not attempt to try to fix them, the offsets are fine on mobile where they matter
 .logo {
-  /*background-color: #333;*/
+  text-align: center;
   position: absolute;
   left: 0;
   right: 0;
@@ -234,7 +244,7 @@ html {
     background-color: darken($btn-bg, 10%);
   }
 }
-
+/*
 $skyline-color: #e0e7f5;
 
 .skyline {
@@ -260,7 +270,7 @@ $skyline-color: #e0e7f5;
     filter: none;
   }
 }
-
+*/
 .page-content {
   top: 100%;
   background: #fff;
@@ -272,8 +282,6 @@ $skyline-color: #e0e7f5;
 
 .text-contents {
   max-width: 768px;
-  margin-left: auto;
-  margin-right: auto;
   padding: 36px;
   line-height: 1.5em;
 
@@ -282,7 +290,7 @@ $skyline-color: #e0e7f5;
   }
 
   h1 {
-    text-align: center;
+    text-align: left;
     @media (min-width: $break-l) {
       font-size: 36px;
     }

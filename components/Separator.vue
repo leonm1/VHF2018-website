@@ -18,7 +18,8 @@ export default {
 .separator {
   width: 60px;
   height: 4px;
-  background: #000;
+  // default transparent color
+  background: rgba(0,0,0,0);
   margin: 27.5px auto 20px;
 
   &.white {
