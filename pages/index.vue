@@ -4,20 +4,24 @@
       <div class="parallax-layer base">
         <mlhbadge></mlhbadge>
       </div>
+      <!--
       <div class="parallax-layer deepest">
         <img class="skyline" alt="Nashville Skyline" src="~assets/img/skyline.svg" />
       </div>
+      -->
       <div class="parallax-layer deep">
         <div class="logo">
-          <img alt="VandyHacks V" src="~assets/img/vandyhacks-text.svg" />
+          <img alt="VandyHacks V" src="~assets/img/Logo Outline.svg" />
           <div class="actions">
             <a ontouchstart="" class="apply-btn" href="https://vandyhacksiv.devpost.com/submissions">View Winners</a>
           </div>
         </div>
       </div>
+      <!--
       <div class="parallax-layer back">
         <batmanbuilding/>
       </div>
+      -->
     </div>
     <div class="parallax-layer base page-content">
       <div class="description feature-block">
@@ -162,9 +166,14 @@ export default {
 @import '~assets/scss/parallax.scss';
 @import '~assets/scss/breakpoints.scss';
 
+html {
+  background-color: #2a1577;
+}
+
 // There are offset issues on Chrome desktop, most noticeable at extremely low widths
 // Do not attempt to try to fix them, the offsets are fine on mobile where they matter
 .logo {
+  /*background-color: #333;*/
   position: absolute;
   left: 0;
   right: 0;
