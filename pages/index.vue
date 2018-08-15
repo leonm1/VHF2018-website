@@ -50,18 +50,18 @@
                 Even more reason for you to come! We will be hosting beginners' workshops for you to get started, and our mentors can always help you out along the way. We greatly encourage new hackers to attend, and no prior experience is necessary!
               </faqitem>
               <faqitem title="What if I've never been to a hackathon?">
-                Not to worry! A few weeks before the event, you’ll receive an email with a link to our hacker guide, which will contain all the information you need to make the most out of your weekend. During the event, the VandyHacks Team will be around to help answer any questions. As always, feel free to email us at
-                <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a> with any questions you may have.
+                Not to worry! A few weeks before the event, we'll email you our hacker guide, which contains all the information you need to make the most out of your weekend. During the event, the VandyHacks Team will be around to help answer any questions. As always, feel free to email us at
+                <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a> with any questions.
               </faqitem>
               <h3 class="faq-header">Applying</h3>
               <faqitem title="Who can apply?">
-                Anyone who is 18 years or older (we will be checking ID) and is currently enrolled in college or university with a valid student ID. International students are invited to apply and attend, but we cannot guarantee full travel reimbursement.
+                Anyone who is 18 years or older and is currently enrolled in college or university with a valid student ID. International students are invited to apply and attend, but we cannot guarantee full travel reimbursement.
               </faqitem>
               <faqitem title="How does registration work?">
-                Registration is currently closed for non-Vanderbilt students. 
+                Registration is currently open!
               </faqitem>
-              <faqitem title="What if I'm a Vanderbilt student?">
-                All Vanderbilt students are encouraged to attend, regardless of major or background.
+              <faqitem title="What if I'm not a CS major?">
+                All students are encouraged to attend, regardless of major or background.
               </faqitem>
               <faqitem title="Are walk-ins allowed?">
                 We ask that everyone complete an application, but walk-ins will be accepted if space allows. We cannot guarantee swag for walk-ins.
@@ -87,14 +87,14 @@
               <faqitem title="Where will I sleep?">
                 We will have designated quiet rooms, so bring a blanket and pillow!
               </faqitem>
-              <faqitem title="What will I eat?">
-                Meals will be provided throughout the event, starting with dinner on Friday and ending with lunch on Sunday. Snacks will also be provided periodically. Vegetarian and gluten-free options are available. Be sure to designate any allergies or dietary restrictions on your application.
+              <faqitem title="Is food provided?">
+                Meals will be provided throughout the event, starting with Friday dinner and ending with lunch on Sunday. Snacks will also be provided periodically. Vegetarian and gluten-free options are available. Please indicate any allergies or dietary restrictions on your application.
               </faqitem>
               <faqitem title="How are teams formed? Do I need a team?">
-                Teams are limited to four people in size. If you're applying with a team, we will review all of your team members' applications to determine admission. We will also have a pitch session where attendees can share their ideas and find potential teammates. However, teams are not required, so feel free to work alone.
+                Teams are limited to four people. If you're applying with a team, we will review all of your team members' applications to determine admission. We will also have a pitch session where attendees can share their ideas and find potential teammates. However, teams are not required, so feel free to work individually.
               </faqitem>
               <faqitem title="Will there be other activities besides hacking?">
-                Of course! This year, our hacker experience team has planned a bunch of fun events for attendees to relax. Stay tuned for more info!
+                Of course! This year, we've has planned a bunch of fun events for attendees to relax. Stay tuned for more info!
               </faqitem>
               <faqitem title="Do I need to stay the entire time?">
                 Vanderbilt students are free to enter and leave the venue at all times. Students from other schools are asked to remain inside the venue throughout the entire event.
@@ -104,7 +104,7 @@
                 <a href="mailto:mentor@vandyhacks.org">mentor@vandyhacks.org</a>.
               </faqitem>
               <h3 class="faq-header">Other</h3>
-              <faqitem title="My question wasn't addressed here. What should I do?">
+              <faqitem title="My question wasn't addressed here. Who should I ask?">
                 Send us an email at
                 <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a>.
               </faqitem>
