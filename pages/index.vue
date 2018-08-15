@@ -47,7 +47,7 @@
             <div class="col-sm-6 col-md-6 faq-col">
               <h3 class="faq-header">General</h3>
               <faqitem title="I have no idea how to code. Can I still attend?">
-                Even more reason for you to come! We will be hosting beginners' workshops for you to get started, and our mentors can always help you out along the way. We greatly encourage new hackers to attend, and no prior experience is necessary!
+                Even more reason for you to come! We will be hosting beginners' workshops for you to get started, and our mentors can help you out along the way. We greatly encourage new hackers to attend, and no prior experience is necessary!
               </faqitem>
               <faqitem title="What if I've never been to a hackathon?">
                 Not to worry! A few weeks before the event, we'll email you our hacker guide, which contains all the information you need to make the most out of your weekend. During the event, the VandyHacks Team will be around to help answer any questions. As always, feel free to email us at
@@ -55,18 +55,12 @@
               </faqitem>
               <h3 class="faq-header">Applying</h3>
               <faqitem title="Who can apply?">
-                Anyone who is 18 years or older and is currently enrolled in college or university with a valid student ID. International students are invited to apply and attend, but we cannot guarantee full travel reimbursement.
+                Anyone who is 18 years or older and is currently enrolled in college or university with a valid student ID.
               </faqitem>
               <faqitem title="How does registration work?">
                 Registration is currently open!
               </faqitem>
-              <faqitem title="What if I'm not a CS major?">
-                All students are encouraged to attend, regardless of major or background.
-              </faqitem>
-              <faqitem title="Are walk-ins allowed?">
-                We ask that everyone complete an application, but walk-ins will be accepted if space allows. We cannot guarantee swag for walk-ins.
-              </faqitem>
-              <h3 class="faq-header">Logistics</h3>
+              <h3 class="faq-header">Travel</h3>
               <faqitem title="Will you be providing buses to schools?">
                 Yes, we will be providing buses to Purdue University, University of Illinois at Urbana-Champaign, Georgia Institute of Technology, and University of Florida. We may also provide a bus at Illinois Institute of Technology for the Chicagoland area if we receive enough applications and RSVPs! If you reserve a seat on the bus (coming soon) and can get to the bus stop, you can get on!
               </faqitem>
@@ -104,9 +98,9 @@
                 <a href="mailto:mentor@vandyhacks.org">mentor@vandyhacks.org</a>.
               </faqitem>
               <h3 class="faq-header">Other</h3>
-              <faqitem title="My question wasn't addressed here. Who should I ask?">
+              <faqitem title="I have more questions!">
                 Send us an email at
-                <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a>.
+                <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a>! We'll be happy to answer!
               </faqitem>
             </div>
           </div>

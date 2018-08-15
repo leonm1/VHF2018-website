@@ -7,6 +7,7 @@
   cursor: pointer;
   display: flex;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-size: 1.1em;
 }
 
 .title {
