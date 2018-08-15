@@ -164,10 +164,9 @@ export default {
 @import '~assets/scss/breakpoints.scss';
 
 html {
-  /*background-color: #2a1577;*/
-  background: #005C97;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #1A1756;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1A1756, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1A1756, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -293,18 +292,27 @@ $skyline-color: #e0e7f5;
 
 // Content sections
 .description {
-  background: #222a53;
+  background: #1A1756;
+  background: -webkit-linear-gradient(to right, #1A1756, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1A1756, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   color: white;
 }
 
 // .schedule {
 .schedule {
-  background: #2b2f40;
+  background: #1A1756;
+  background: -webkit-linear-gradient(to right, #1A1756, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1A1756, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   color: white;
 }
 
 .faq {
-  background: #565f86;
+  background: #1A1756;
+  background: -webkit-linear-gradient(to right, #1A1756, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1A1756, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   color: white;
 }
 
