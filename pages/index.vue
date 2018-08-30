@@ -319,7 +319,7 @@ $skyline-color: #e0e7f5;
   color: white;
 
   @media (min-width: $break-l) {
-    background: #131349 url(~assets/img/faq_background.svg) no-repeat;
+    background: #131349 url(~assets/img/faq-background.svg) no-repeat;
     background-position: center bottom;
     background-size: 110% 50%;
   }
@@ -374,7 +374,7 @@ $skyline-color: #e0e7f5;
 }
 
 .sponsors {
-  background: #131349 url(~assets/img/sponsors_background.svg) no-repeat;
+  background: #131349 url(~assets/img/sponsors-background.svg) no-repeat;
   background-position: center center;
   background-size: cover;
   color: white;

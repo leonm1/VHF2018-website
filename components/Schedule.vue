@@ -35,6 +35,18 @@
     font-size: 1.5em
 }
 
+.first-date {
+    color: #108243;
+}
+
+.second-date {
+    color: #0C826A;
+}
+
+.third-date {
+    color: #04A09D;
+}
+
 .event {
     padding: .75em;
 }
@@ -64,7 +76,7 @@
 <template>
     <div class="row">
         <div class="sched-col">
-            <h3 class="date" style="color: #108243;">Friday, Nov 2</h3>
+            <h3 class="date first-date">Friday, Nov 2</h3>
             <div class="events">
                 <div class="event">
                     <div class="event-name">check-in</div>
@@ -101,7 +113,7 @@
             </div>
         </div>
         <div class="sched-col">
-            <h3 class="date" style="color: #0C826A;">Saturday, Nov 3</h3>
+            <h3 class="date second-date">Saturday, Nov 3</h3>
             <div class="events">
                 <div class="event">
                     <div class="event-name">midnight snack</div>
@@ -138,7 +150,7 @@
             </div>
         </div>
         <div class="sched-col">
-            <h3 class="date" style="color: #04A09D;">Sunday, Nov 4</h3>
+            <h3 class="date third-date">Sunday, Nov 4</h3>
             <div class="events">
                 <div class="event">
                     <div class="event-name">midnight snack</div>
