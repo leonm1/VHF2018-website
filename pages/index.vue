@@ -26,23 +26,21 @@
     <div class="parallax-layer base page-content">
       <div class="description feature-block">
         <div class="text-contents">
-          <h1>WELCOME</h1>
-          <separator/>
-          <p>Founded in the spring of 2015, VandyHacks was the first collegiate hackathon to call Nashville, 
-            Tennessee home. Now, we're proud to bring you VandyHacks V! From November 2-4, 2018, 450+ 
-            students from colleges and universities across the nation will gather at Vanderbilt 
-            University’s Engineering and Science Building for a weekend of collaboration, innovation, 
+          <img alt="Welcome" src="~assets/img/welcome.svg" class="heading-text"/>
+          <p>Founded in the spring of 2015, VandyHacks was the first collegiate hackathon to call Nashville,
+            Tennessee home. Now, we're proud to bring you VandyHacks V! From November 2-4, 2018, 450+
+            students from colleges and universities across the nation will gather at Vanderbilt
+            University’s Engineering and Science Building for a weekend of collaboration, innovation,
             and entrepreneurship.</p>
           &nbsp;
-          <p>For 36 hours, participants will work together to bring their ideas to life - and have lots 
-            of fun doing it! VandyHacks welcomes beginners, and we encourage all students to apply, 
+          <p>For 36 hours, participants will work together to bring their ideas to life - and have lots
+            of fun doing it! VandyHacks welcomes beginners, and we encourage all students to apply,
             regardless of their major or background.</p>
         </div>
       </div>
       <div class="faq feature-block">
         <div class="text-contents">
-          <h1>FAQ</h1>
-          <separator/>
+          <img alt="FAQ" src="~assets/img/faq.svg" class="heading-text"/>
           <div class="row">
             <div class="col-sm-6 col-md-6 faq-col">
               <h3 class="faq-header">General</h3>
@@ -108,19 +106,14 @@
       </div>
       <div class="schedule feature-block">
         <div class="text-contents">
-          <h1>SCHEDULE</h1>
-          <separator/>
+          <img alt="Schedule" src="~assets/img/schedule.svg" class="heading-text"/>
           <schedule/>
         </div>
       </div>
       <div class="sponsors feature-block">
         <div class="text-contents">
-          <h1>Sponsors</h1>
-          <separator/>
+          <img alt="Sponsors" src="~assets/img/sponsors.svg" class="heading-text"/>
           <sponsors/> &nbsp;
-          <h3 class="sponsor-info">Interested in being a sponsor? Check out our
-            <a href="/sponsorship">[BROKEN LINK] sponsorship prospectus</a>!
-          </h3>
         </div>
       </div>
       <sitefooter />
@@ -130,7 +123,6 @@
 
 <script>
 import MlhBadge from '~/components/MlhBadge.vue'
-import Separator from '~/components/Separator.vue'
 import Schedule from '~/components/Schedule.vue'
 import FaqItem from '~/components/FaqItem.vue'
 import Sponsors from '~/components/Sponsors.vue'
@@ -142,7 +134,6 @@ import BatmanBuilding from '~/components/BatmanBuilding.vue'
 export default {
   components: {
     mlhbadge: MlhBadge,
-    separator: Separator,
     schedule: Schedule,
     faqitem: FaqItem,
     batmanbuilding: BatmanBuilding,
@@ -273,7 +264,29 @@ $skyline-color: #e0e7f5;
   background: #fff;
 }
 
+.heading-text {
+  height: 10vh;
+  width: 70vw;
+
+  @media (min-width: $break-s) {
+    width: 65vw;
+  }
+
+  @media (min-width: $break-sm) {
+    width: 60vw;
+  }
+
+  @media (min-width: $break-m) {
+    width: 55vw;
+  }
+
+  @media (min-width: $break-l) {
+    width: 50vw;
+  }
+}
+
 .text-contents {
+  font-family: 'Sofia Pro';
   max-width: 768px;
   padding: 36px;
   line-height: 1.5em;
@@ -292,28 +305,24 @@ $skyline-color: #e0e7f5;
 
 // Content sections
 .description {
-  background: #1A1756;
-  background: -webkit-linear-gradient(to right, #1A1756, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #1A1756, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #131349;
   color: white;
 }
 
-// .schedule {
 .schedule {
-  background: #1A1756;
-  background: -webkit-linear-gradient(to right, #1A1756, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #1A1756, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #0F0B2E;
   color: white;
 }
 
 .faq {
-  background: #1A1756;
-  background: -webkit-linear-gradient(to right, #1A1756, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #1A1756, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #131349;
   color: white;
+
+  @media (min-width: $break-l) {
+    background: #131349 url(~assets/img/faq_background.svg) no-repeat;
+    background-position: center bottom;
+    background-size: 110% 50%;
+  }
 }
 
 .faq {
@@ -328,7 +337,7 @@ $skyline-color: #e0e7f5;
 .schedule {
   .text-contents {
     text-align: left; // padding-bottom: 15px;
-    max-width: 1200px;
+    max-width: 100%;
   }
 }
 
@@ -364,8 +373,10 @@ $skyline-color: #e0e7f5;
   font-size: 1.14em;
 }
 
-// .sponsors {
-//  background: #394574;
-//  color: white;
-// }
+.sponsors {
+  background: #131349 url(~assets/img/sponsors_background.svg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: white;
+}
 </style>

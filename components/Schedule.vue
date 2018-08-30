@@ -64,112 +64,112 @@
 <template>
     <div class="row">
         <div class="sched-col">
-            <h3 class="date">friday, nov 2</h3>
+            <h3 class="date" style="color: #108243;">Friday, Nov 2</h3>
             <div class="events">
                 <div class="event">
-                    <div class="event-name">Check-in</div>
+                    <div class="event-name">check-in</div>
                     <div class="event-time">5:30p</div>
                 </div>
                 <div class="event">
-                    <div class="event-name">Dinner</div>
+                    <div class="event-name">dinner</div>
                     <div class="event-time">6:00p</div>
                 </div>
                 <div class="event">
-                    <div class="event-name">Opening Ceremony</div>
+                    <div class="event-name">opening ceremony</div>
                     <div class="event-time">8:00p</div>
                 </div>
                 <div class="event">
-                    <div class="event-name">Hacking Begins</div>
+                    <div class="event-name">hacking begins</div>
                     <div class="event-time">10:00p</div>
                 </div>
                 <div class="event">
-                    <div class="event-name">Pitch Session</div>
+                    <div class="event-name">pitch session</div>
                     <div class="event-time">10:00p</div>
                 </div>
                 <div class="event">
-                    <div class="event-name">Git Tech Talk</div>
+                    <div class="event-name">git tech talk</div>
                     <div class="event-time">10:00p</div>
                 </div>
                 <div class="event">
-                    <div class="event-name">Beginner Switch Session</div>
+                    <div class="event-name">beginner switch session</div>
                     <div class="event-time">10:30p</div>
                 </div>
                 <div class="event">
-                    <div class="event-name">Beginner Tech Talks</div>
+                    <div class="event-name">beginner tech talks</div>
                     <div class="event-time">11:00p</div>
                 </div>
             </div>
         </div>
         <div class="sched-col">
-            <h3 class="date">saturday, nov 3</h3>
+            <h3 class="date" style="color: #0C826A;">Saturday, Nov 3</h3>
             <div class="events">
                 <div class="event">
-                    <div class="event-name">Midnight Snack</div>
+                    <div class="event-name">midnight snack</div>
                     <div class="event-time">12:00a</div>
                 </div>
                 <div class="event">
-                    <div class="event-name">Intermediate Tech Talks</div>
+                    <div class="event-name">intermediate tech talks</div>
                     <div class="event-time">12:00a</div>
                 </div>
                 <div class="event">
-                    <div class="event-name">Breakfast</div>
+                    <div class="event-name">breakfast</div>
                     <div class="event-time">8:00a</div>
                 </div>
                 <div class="event">
-                    <div class="event-name">Advanced Tech Talks</div>
+                    <div class="event-name">advanced tech talks</div>
                     <div class="event-time">9:00a</div>
                 </div>
                 <div class="event">
-                    <div class="event-name">Lunch</div>
+                    <div class="event-name">lunch</div>
                     <div class="event-time">12:00p</div>
                 </div>
                 <div class="event">
-                    <div class="event-name">Dinner </div>
+                    <div class="event-name">dinner </div>
                     <div class="event-time">5:30p</div>
                 </div>
                 <div class="event">
-                    <div class="event-name">Wellness Night</div>
+                    <div class="event-name">wellness night</div>
                     <div class="event-time">7:00p</div>
                 </div>
                 <div class="event">
-                    <div class="event-name">Werewolf, hosted by MLH</div>
+                    <div class="event-name">werewolf, hosted by MLH</div>
                     <div class="event-time">9:00p</div>
                 </div>
             </div>
         </div>
         <div class="sched-col">
-            <h3 class="date">sunday, nov 4</h3>
+            <h3 class="date" style="color: #04A09D;">Sunday, Nov 4</h3>
             <div class="events">
                 <div class="event">
-                    <div class="event-name">Midnight Snack</div>
+                    <div class="event-name">midnight snack</div>
                     <div class="event-time">12:00a</div>
                 </div>
                 <div class="event">
-                    <div class="event-name">Breakfast</div>
+                    <div class="event-name">breakfast</div>
                     <div class="event-time">8:00a</div>
                 </div>
                 <div class="event">
-                    <div class="event-name">Hacking Ends</div>
+                    <div class="event-name">hacking ends</div>
                     <div class="event-time">10:00a</div>
                 </div>
                 <div class="event">
-                    <div class="event-name">How to Demo Talk</div>
+                    <div class="event-name">how to demo talk</div>
                     <div class="event-time">10:00a</div>
                 </div>
                 <div class="event">
-                    <div class="event-name">Lunch</div>
+                    <div class="event-name">lunch</div>
                     <div class="event-time">11:00a</div>
                 </div>
                 <div class="event">
-                    <div class="event-name">Project Expo</div>
+                    <div class="event-name">project expo</div>
                     <div class="event-time">11:30a</div>
                 </div>
                 <div class="event">
-                    <div class="event-name">Closing Ceremony</div>
+                    <div class="event-name">closing ceremony</div>
                     <div class="event-time">1:30p</div>
                 </div>
                 <div class="event">
-                    <div class="event-name">Buses Depart</div>
+                    <div class="event-name">buses depart</div>
                     <div class="event-time">3:30p</div>
                 </div>
             </div>
