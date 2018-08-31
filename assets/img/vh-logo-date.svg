@@ -1,0 +1,123 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1091.26 764.74">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        font-size: 70px;
+        font-family: SofiaProRegular, Sofia Pro;
+      }
+
+      .cls-12, .cls-14, .cls-18, .cls-19, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-4 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-6 {
+        letter-spacing: -0.05em;
+      }
+
+      .cls-7 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-8 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-9 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        letter-spacing: -0.03em;
+      }
+
+      .cls-13 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-14, .cls-19 {
+        font-size: 91.96px;
+        font-family: SofiaProCondensedRegular, Sofia Pro Condensed;
+      }
+
+      .cls-14 {
+        letter-spacing: 0.17em;
+      }
+
+      .cls-15, .cls-19 {
+        letter-spacing: 0.2em;
+      }
+
+      .cls-16 {
+        letter-spacing: 0.17em;
+      }
+
+      .cls-17 {
+        letter-spacing: 0.1em;
+      }
+
+      .cls-18 {
+        font-size: 20.18px;
+        font-family: SofiaProLight, Sofia Pro;
+        letter-spacing: 0.2em;
+      }
+
+      .cls-20 {
+        letter-spacing: 0.19em;
+      }
+
+      .cls-21 {
+        letter-spacing: 0.19em;
+      }
+
+      .cls-22 {
+        letter-spacing: 0.17em;
+      }
+
+      .cls-23 {
+        letter-spacing: 0.17em;
+      }
+    </style>
+    <clipPath id="clip-path" transform="translate(-228.28 -123.99)">
+      <path class="cls-1" d="M779,509.74,920.15,128.91c1-2.64-.51-4.78-3.33-4.78H892.67a7.87,7.87,0,0,0-6.87,4.78L744.66,509.74c-1,2.64.51,4.78,3.33,4.78h24.15A7.87,7.87,0,0,0,779,509.74Z"/>
+    </clipPath>
+  </defs>
+  <title>VH Logo and Date</title>
+  <text class="cls-2" transform="translate(226.19 632.7)"><tspan class="cls-3">N</tspan><tspan class="cls-4" x="47.18" y="0">ov</tspan><tspan x="121.87" y="0">embe</tspan><tspan class="cls-5" x="304.22" y="0">r</tspan><tspan x="330.19" y="0" xml:space="preserve"> 2-4, 2018</tspan><tspan class="cls-6" x="-7.28" y="84">V</tspan><tspan x="28.77" y="84">anderbil</tspan><tspan class="cls-7" x="297.22" y="84">t</tspan><tspan x="318.85" y="84"> </tspan><tspan class="cls-8" x="337.05" y="84">U</tspan><tspan x="384.09" y="84">ni</tspan><tspan class="cls-9" x="440.44" y="84">v</tspan><tspan x="475.37" y="84">e</tspan><tspan class="cls-10" x="514.29" y="84">r</tspan><tspan x="541.66" y="84">sit</tspan><tspan class="cls-11" x="612.29" y="84">y</tspan></text>
+  <g>
+    <g>
+      <path class="cls-12" d="M578.16,129.6,718.64,508.66c1.12,3-.58,5.47-3.8,5.47H692.15a9,9,0,0,1-7.85-5.47L543.81,129.6c-1.12-3,.58-5.47,3.8-5.47h22.69A9,9,0,0,1,578.16,129.6Z" transform="translate(-228.28 -123.99)"/>
+      <path class="cls-12" d="M635.91,129.6,748.12,431.32c1.12,3-.58,5.46-3.8,5.46H721.63a9,9,0,0,1-7.86-5.46L601.56,129.6c-1.12-3,.58-5.46,3.8-5.46H628A9,9,0,0,1,635.91,129.6Z" transform="translate(-228.28 -123.99)"/>
+      <path class="cls-12" d="M721.19,509.06,861.82,129.59c1.12-3-.58-5.47-3.8-5.47H835.33a9,9,0,0,0-7.85,5.47L686.84,509.06c-1.12,3,.58,5.47,3.8,5.47h22.69A9,9,0,0,0,721.19,509.06Z" transform="translate(-228.28 -123.99)"/>
+      <path class="cls-12" d="M838.22,509.06,978.85,129.59c1.12-3-.58-5.47-3.8-5.47H952.36a9,9,0,0,0-7.85,5.47L803.87,509.06c-1.12,3,.58,5.47,3.8,5.47h22.69A9,9,0,0,0,838.22,509.06Z" transform="translate(-228.28 -123.99)"/>
+      <g class="cls-13">
+        <g>
+          <path class="cls-12" d="M779.27,509.06l59.25-159.88c1.12-3-.58-5.47-3.8-5.47H812a9,9,0,0,0-7.85,5.47L744.92,509.06c-1.12,3,.58,5.47,3.8,5.47h22.69A9,9,0,0,0,779.27,509.06Z" transform="translate(-228.28 -123.99)"/>
+          <path class="cls-12" d="M851.41,313.93l68.36-184.47c1.12-3-.58-5.47-3.8-5.47H893.27a9,9,0,0,0-7.85,5.47L817.06,313.93c-1.12,3,.58,5.47,3.8,5.47h22.69A9,9,0,0,0,851.41,313.93Z" transform="translate(-228.28 -123.99)"/>
+        </g>
+      </g>
+    </g>
+    <text class="cls-14" transform="translate(181.57 521.38) scale(0.87 0.76)">V<tspan class="cls-15" x="59.66" y="0">AN</tspan><tspan class="cls-16" x="200.75" y="0">D</tspan><tspan class="cls-17" x="272.89" y="0">Y</tspan></text>
+    <text class="cls-18" transform="translate(469.68 487.75)">®</text>
+    <text class="cls-19" transform="translate(490.15 521.38) scale(0.87 0.76)">H<tspan class="cls-20" x="73.89" y="0">A</tspan><tspan x="141.81" y="0">C</tspan><tspan class="cls-21" x="212.42" y="0">K</tspan><tspan x="274.28" y="0">S</tspan><tspan class="cls-22" x="338.07" y="0"> </tspan><tspan class="cls-23" x="373.93" y="0">V</tspan></text>
+  </g>
+</svg>

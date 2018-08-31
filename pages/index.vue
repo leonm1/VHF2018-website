@@ -6,9 +6,9 @@
       </div>
       <div class="parallax-layer deep">
         <div class="logo">
-          <img alt="VandyHacks V" src="~assets/img/Logo Outline.svg"/>
+          <img alt="VandyHacks V" src="~assets/img/vh-logo-date.svg"/>
           <div class="actions">
-            <a ontouchstart="" class="apply-btn" href="https://vandyhacksiv.devpost.com/submissions">View Winners</a>
+            <a ontouchstart="" class="apply-btn" href="https://vandyhacksiv.devpost.com/submissions">Apply</a>
           </div>
         </div>
       </div>
@@ -142,13 +142,10 @@ export default {
 
 html {
   background: #1A1756;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #1A1756, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #1A1756, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 // There are offset issues on Chrome desktop, most noticeable at extremely low widths
-// Do not attempt to try to fix them, the offsets are fine on mobile where they matter
+// Won't fix, the offsets are fine on mobile where they matter - Yunyu
 .logo {
   text-align: center;
   position: absolute;
