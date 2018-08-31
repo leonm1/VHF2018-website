@@ -4,11 +4,6 @@
       <div class="parallax-layer base">
         <mlhbadge></mlhbadge>
       </div>
-      <!--
-      <div class="parallax-layer deepest">
-        <img class="skyline" alt="Nashville Skyline" src="~assets/img/skyline.svg" />
-      </div>
-      -->
       <div class="parallax-layer deep">
         <div class="logo">
           <img alt="VandyHacks V" src="~assets/img/Logo Outline.svg"/>
@@ -17,11 +12,6 @@
           </div>
         </div>
       </div>
-      <!--
-      <div class="parallax-layer back">
-        <batmanbuilding/>
-      </div>
-      -->
     </div>
     <div class="parallax-layer base page-content">
       <div class="description feature-block">
@@ -128,15 +118,11 @@ import FaqItem from '~/components/FaqItem.vue'
 import Sponsors from '~/components/Sponsors.vue'
 import Footer from '~/components/Footer.vue'
 
-// Embedded SVG
-import BatmanBuilding from '~/components/BatmanBuilding.vue'
-
 export default {
   components: {
     mlhbadge: MlhBadge,
     schedule: Schedule,
     faqitem: FaqItem,
-    batmanbuilding: BatmanBuilding,
     sponsors: Sponsors,
     sitefooter: Footer
   },
@@ -228,33 +214,7 @@ html {
     background-color: darken($btn-bg, 10%);
   }
 }
-/*
-$skyline-color: #e0e7f5;
 
-.skyline {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto auto 0;
-  overflow: hidden;
-  border-bottom: 50px solid $skyline-color; // Disguise subpixel rounding issues
-  filter: drop-shadow(0 5px $skyline-color);
-
-  @media (min-width: $break-sm) {
-    border-bottom: 30px solid $skyline-color;
-  }
-
-  @media (min-width: $break-m) {
-    border-bottom: 20px solid $skyline-color;
-  }
-
-  @media (min-width: $break-l) {
-    border-bottom: none;
-    filter: none;
-  }
-}
-*/
 .page-content {
   top: 100%;
   background: #fff;
