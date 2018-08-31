@@ -8,8 +8,12 @@
         <div class="logo">
           <img alt="VandyHacks V" src="~assets/img/vh-logo-date.svg"/>
           <div class="actions">
-            <a ontouchstart="" class="apply-btn" href="https://vandyhacksiv.devpost.com/submissions">Apply</a>
+            <a ontouchstart="" class="apply-btn" href="/apply">Apply</a>
           </div>
+        </div>
+        <div class="sponsor-prospectus">
+          <div class="sponsor">Interested in being a sponsor? Check out our
+          <a href="/sponsorship">sponsorship prospectus</a>!</div>
         </div>
       </div>
     </div>
@@ -186,16 +190,14 @@ html {
 }
 
 .apply-btn {
-  $btn-bg: #222a53;
-  $btn-font-size: 14.5px;
-  $btn-padding-v: 15.75px;
-  $btn-padding-h: 1.5 * $btn-padding-v;
+  $btn-bg: #DE9949;
+  $btn-font-size:1.4em;
 
-  color: white;
+  color: #1A1756;
   background-color: $btn-bg;
   border-radius: 3px;
   text-decoration: none;
-  padding: $btn-padding-v $btn-padding-h;
+  padding: .3em 1.6em;
   font-size: $btn-font-size;
   font-weight: bold;
   transition: all 0.15s linear;
@@ -204,7 +206,7 @@ html {
 
   &:hover,
   &:focus {
-    background-color: #394574;
+    background-color: lighten($btn-bg, 10%);
   }
 
   &:active {
@@ -266,28 +268,25 @@ html {
   color: white;
 }
 
-.schedule {
-  background: #0F0B2E;
-  color: white;
-}
-
 .faq {
   background: #131349;
   color: white;
+  text-align: center;
 
   @media (min-width: $break-l) {
     background: #131349 url(~assets/img/faq-background.svg) no-repeat;
     background-position: center bottom;
     background-size: 110% 50%;
   }
-}
-
-.faq {
-  text-align: center;
 
   a {
     color: #d0d3e1;
   }
+}
+
+.schedule {
+  background: #0F0B2E;
+  color: white;
 }
 
 .faq,
@@ -335,5 +334,15 @@ html {
   background-position: center center;
   background-size: cover;
   color: white;
+}
+
+.sponsor-prospectus {
+  position:absolute; 
+  bottom: 0px;
+  left: 0px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  color: white;
+  
 }
 </style>
