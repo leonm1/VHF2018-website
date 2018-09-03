@@ -38,6 +38,10 @@
   display: grid;
   grid: 1fr / 1fr 10px 1fr 10px 1fr;
   grid-gap: 10px;
+
+  @media screen and (max-width: 768px /*break-l*/) {
+    grid: 1fr 0px 1fr 0px 1fr / 1fr;
+  }
 }
 
 .event-column {

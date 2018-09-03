@@ -104,13 +104,6 @@ export default {
     schedule: Schedule,
     faqitem: FaqItem,
     sitefooter: Footer
-  },
-  mounted() {
-    if (process.browser) {
-      const xhr = new XMLHttpRequest()
-      xhr.open("GET", "https://apply.vandyhacks.org/wakemydyno.txt", true)
-      xhr.send()
-    }
   }
 }
 </script>
@@ -187,12 +180,14 @@ body {
   flex-flow: column nowrap;
   justify-content: flex-end;
 
-  .welcome {
-    max-width: 60%;
-    margin-bottom: 5%;
+  @media screen and (min-width: 768px) {
+    .welcome {
+      max-width: 60%;
+      margin-bottom: 5%;
 
-    p {
-      margin-left: 60px;
+      p {
+        margin-left: 60px;
+      }
     }
   }
 }
@@ -218,6 +213,14 @@ body {
   }
   .faq-right {
     grid-area: right;
+  }
+
+  @media screen and (max-width: 768px) {
+    grid:
+      [row1-start] "header" auto [row1-end]
+      [row2-start] "left" auto [row2-end]
+      [row3-start] "right" auto [row2-end]
+      / 1fr;
   }
 }
 
