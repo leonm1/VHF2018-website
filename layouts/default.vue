@@ -10,21 +10,23 @@ html,
 }
 
 @font-face {
-  font-family: 'Sofia Pro';
-  src: url("/fonts/SofiaProRegular.woff2") format("woff2"), url("/fonts/SofiaProRegular.woff") format("woff");
+  font-family: "Sofia Pro";
+  src: url("/fonts/SofiaProRegular.woff2") format("woff2"),
+    url("/fonts/SofiaProRegular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Sofia Pro';
-  src: url("/fonts/SofiaProSemiBold.woff2") format("woff2"), url("/fonts/SofiaProSemiBold.woff") format("woff");
+  font-family: "Sofia Pro";
+  src: url("/fonts/SofiaProSemiBold.woff2") format("woff2"),
+    url("/fonts/SofiaProSemiBold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
 }
 
 html {
-  font-family: 'Sofia Pro', sans-serif;
+  font-family: "Sofia Pro", sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -45,11 +47,13 @@ a {
   color: #565f86;
 }
 
-.page-enter-active, .page-leave-active {
-  transition: opacity .25s;
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.25s;
 }
 
-.page-enter, .page-leave-to {
+.page-enter,
+.page-leave-to {
   opacity: 0;
 }
 </style>
