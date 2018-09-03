@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1920"
+   height="2160"
+   style="vector-effect:non-scaling-stroke"
+   version="1.1"
+   id="svg94"
+   sodipodi:docname="bg-top.svg"
+   inkscape:version="0.92.2 2405546, 2018-03-11">
+  <metadata
+     id="metadata98">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="3000"
+     inkscape:window-height="1884"
+     id="namedview96"
+     showgrid="false"
+     inkscape:zoom="0.5"
+     inkscape:cx="596.40992"
+     inkscape:cy="940.94821"
+     inkscape:window-x="0"
+     inkscape:window-y="60"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g92" />
+  <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+  <defs
+     id="defs86">
+    <symbol
+       data-name="Layer 1"
+       id="svg_3"
+       style="vector-effect:non-scaling-stroke"
+       viewBox="0 0 3589.84 2426.84">
+      <defs
+         style="vector-effect:non-scaling-stroke"
+         id="defs7">
+        <style
+           id="style2">.cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #1a1756;
+      }
+
+      .cls-4 {
+        fill: #1d1d63;
+      }
+
+      .cls-5 {
+        fill: #0c826a;
+      }
+
+      .cls-6 {
+        fill: #04a09d;
+      }
+
+      .cls-7 {
+        fill: #12123d;
+      }
+
+      .cls-8 {
+        fill: #090935;
+      }
+
+      .cls-9 {
+        fill: #39396b;
+      }
+
+      .cls-10 {
+        fill: #070723;
+      }
+
+      .cls-11 {
+        fill: #09092d;
+      }
+
+      .cls-12 {
+        fill: #141451;
+      }
+
+      .cls-13 {
+        fill: #0f0b2e;
+      }
+
+      .cls-14 {
+        fill: #04031c;
+      }
+
+      .cls-15 {
+        fill: #262666;
+      }
+
+      .cls-16 {
+        fill: #1e1a63;
+      }</style>
+        <clipPath
+           id="svg_2"
+           style="vector-effect:non-scaling-stroke">
+          <rect
+             class="cls-1"
+             height="2271"
+             style="vector-effect:non-scaling-stroke;fill:none"
+             width="1920"
+             x="-3"
+             y="582"
+             id="rect4" />
+        </clipPath>
+      </defs>
+      <title
+         id="title9">Background 1</title>
+      <g
+         class="cls-2"
+         style="vector-effect:non-scaling-stroke"
+         clip-path="url(#clip-path)"
+         id="g83">
+        <rect
+           class="cls-3"
+           height="1081"
+           style="vector-effect:non-scaling-stroke;fill:#1a1756"
+           width="1920"
+           x="1444.5601"
+           y="1214.2"
+           id="rect11" />
+        <rect
+           class="cls-3"
+           height="1080"
+           style="vector-effect:non-scaling-stroke;fill:#1a1756"
+           width="1920"
+           x="1444.5601"
+           y="134.2"
+           id="rect13" />
+        <polygon
+           class="cls-4"
+           points="2271.33,94.2 0,166.88 3147.56,2117.2 "
+           style="vector-effect:non-scaling-stroke;fill:#1d1d63"
+           id="polygon15" />
+        <polygon
+           class="cls-4"
+           points="1253.7,1706.83 1289.42,2426.84 3135.53,2137.57 "
+           style="vector-effect:non-scaling-stroke;fill:#1d1d63"
+           id="polygon17" />
+        <polygon
+           class="cls-5"
+           points="1400.23,97.09 58.86,59.76 3151.27,2129.64 "
+           style="vector-effect:non-scaling-stroke;fill:#0c826a"
+           id="polygon19" />
+        <polygon
+           class="cls-6"
+           points="3589.84,96.75 2725.72,0 3152.97,2164.15 "
+           style="vector-effect:non-scaling-stroke;fill:#04a09d"
+           id="polygon21" />
+        <g
+           style="vector-effect:non-scaling-stroke"
+           id="g51">
+          <g
+             style="vector-effect:non-scaling-stroke"
+             id="g45">
+            <rect
+               class="cls-7"
+               height="204.52"
+               style="vector-effect:non-scaling-stroke;fill:#12123d"
+               transform="rotate(-5.09,-2784.6662,-13869.419)"
+               width="127.99"
+               x="1467.95"
+               y="2456.6299"
+               id="rect23" />
+            <circle
+               class="cls-8"
+               cx="1535.34"
+               cy="2597.01"
+               r="41.619999"
+               style="vector-effect:non-scaling-stroke;fill:#090935"
+               transform="rotate(-5.09,-2781.2891,-13831.284)"
+               id="circle25" />
+            <circle
+               class="cls-9"
+               cx="1535.46"
+               cy="2597.3401"
+               r="15.22"
+               style="vector-effect:non-scaling-stroke;fill:#39396b"
+               transform="rotate(-5.09,-2781.1916,-13830.942)"
+               id="circle27" />
+            <path
+               class="cls-9"
+               d="m 1532,2559.12 a 38,38 0 1 0 41.27,34.51 38,38 0 0 0 -41.27,-34.51 z m 6.16,69.09 a 31.33,31.33 0 1 1 28.42,-34 31.33,31.33 0 0 1 -28.46,34 z"
+               style="vector-effect:non-scaling-stroke;fill:#39396b"
+               transform="translate(1440.56,-447.8)"
+               id="path29"
+               inkscape:connector-curvature="0" />
+            <circle
+               class="cls-10"
+               cx="1469.5601"
+               cy="2471.45"
+               r="4.6999998"
+               style="vector-effect:non-scaling-stroke;fill:#070723"
+               transform="rotate(-5.09,-2847.0561,-13956.84)"
+               id="circle31" />
+            <circle
+               class="cls-10"
+               cx="1486.01"
+               cy="2655.99"
+               r="4.6999998"
+               style="vector-effect:non-scaling-stroke;fill:#070723"
+               transform="rotate(-5.09,-2830.5755,-13772.272)"
+               id="circle33" />
+            <circle
+               class="cls-10"
+               cx="1577.89"
+               cy="2461.79"
+               r="4.6999998"
+               style="vector-effect:non-scaling-stroke;fill:#070723"
+               transform="rotate(-5.09,-2738.7619,-13966.454)"
+               id="circle35" />
+            <circle
+               class="cls-10"
+               cx="1594.33"
+               cy="2646.3401"
+               r="4.6999998"
+               style="vector-effect:non-scaling-stroke;fill:#070723"
+               transform="rotate(-5.09,-2722.2813,-13781.886)"
+               id="circle37" />
+            <circle
+               class="cls-8"
+               cx="1527"
+               cy="2505.8701"
+               r="27.52"
+               style="vector-effect:non-scaling-stroke;fill:#090935"
+               transform="rotate(-5.09,-2789.6382,-13922.39)"
+               id="circle39" />
+            <circle
+               class="cls-9"
+               cx="1527.08"
+               cy="2506.75"
+               r="10.06"
+               style="vector-effect:non-scaling-stroke;fill:#39396b"
+               transform="rotate(-5.09,-2789.5657,-13921.485)"
+               id="circle41" />
+            <path
+               class="cls-9"
+               d="m 1524.77,2480.81 a 25.16,25.16 0 1 0 27.29,22.82 25.16,25.16 0 0 0 -27.29,-22.82 z m 4.07,45.69 a 20.72,20.72 0 1 1 18.8,-22.47 20.72,20.72 0 0 1 -18.8,22.47 z"
+               style="vector-effect:non-scaling-stroke;fill:#39396b"
+               transform="translate(1440.56,-447.8)"
+               id="path43"
+               inkscape:connector-curvature="0" />
+          </g>
+          <polyline
+             class="cls-11"
+             points="3074.75 2171.8 3045.02 2207.36 3026.87 2003.54 3057.11 1967.36"
+             style="vector-effect:non-scaling-stroke;fill:#09092d"
+             id="polyline47" />
+          <polygon
+             class="cls-12"
+             points="2899.69,2015.07 2930.06,1978.68 3057.19,1967.32 3027.08,2003.41 "
+             style="vector-effect:non-scaling-stroke;fill:#141451"
+             id="polygon49" />
+        </g>
+        <g
+           style="vector-effect:non-scaling-stroke"
+           id="g81">
+          <g
+             style="vector-effect:non-scaling-stroke"
+             id="g75">
+            <rect
+               class="cls-13"
+               height="325.67001"
+               style="vector-effect:non-scaling-stroke;fill:#0f0b2e"
+               transform="rotate(7.87,5679.6222,12768.989)"
+               width="203.77"
+               x="1602.71"
+               y="2359.24"
+               id="rect53" />
+            <circle
+               class="cls-14"
+               cx="1696.26"
+               cy="2582.4199"
+               r="66.260002"
+               style="vector-effect:non-scaling-stroke;fill:#04031c"
+               transform="rotate(-82.13,2159.6583,1531.8532)"
+               id="circle55" />
+            <circle
+               class="cls-15"
+               cx="1695.96"
+               cy="2584.53"
+               r="24.219999"
+               style="vector-effect:non-scaling-stroke;fill:#262666"
+               transform="rotate(-82.13,2159.3613,1533.9668)"
+               id="circle57" />
+            <path
+               class="cls-15"
+               d="m 1704.55,2522.43 a 60.56,60.56 0 1 0 51.7,68.28 60.56,60.56 0 0 0 -51.7,-68.28 z m -15.12,109.4 a 49.87,49.87 0 1 1 56.23,-42.58 49.87,49.87 0 0 1 -56.23,42.57 z"
+               style="vector-effect:non-scaling-stroke;fill:#262666"
+               transform="translate(1440.56,-447.8)"
+               id="path59"
+               inkscape:connector-curvature="0" />
+            <circle
+               class="cls-14"
+               cx="1639.03"
+               cy="2364.1201"
+               r="7.48"
+               style="vector-effect:non-scaling-stroke;fill:#04031c"
+               transform="rotate(-82.13,2102.4233,1313.5591)"
+               id="circle61" />
+            <circle
+               class="cls-14"
+               cx="1598.65"
+               cy="2656.3201"
+               r="7.48"
+               style="vector-effect:non-scaling-stroke;fill:#04031c"
+               transform="rotate(-82.13,2062.0531,1605.7588)"
+               id="circle63" />
+            <circle
+               class="cls-14"
+               cx="1810.54"
+               cy="2387.8201"
+               r="7.48"
+               style="vector-effect:non-scaling-stroke;fill:#04031c"
+               transform="rotate(-82.13,2273.9333,1337.2481)"
+               id="circle65" />
+            <circle
+               class="cls-14"
+               cx="1770.16"
+               cy="2680.02"
+               r="7.48"
+               style="vector-effect:non-scaling-stroke;fill:#04031c"
+               transform="rotate(-82.13,2233.5638,1629.4585)"
+               id="circle67" />
+            <circle
+               class="cls-14"
+               cx="1715.85"
+               cy="2438.04"
+               r="43.82"
+               style="vector-effect:non-scaling-stroke;fill:#04031c"
+               transform="rotate(-82.13,2179.2467,1387.4695)"
+               id="circle69" />
+            <circle
+               class="cls-15"
+               cx="1715.66"
+               cy="2439.4399"
+               r="16.02"
+               style="vector-effect:non-scaling-stroke;fill:#262666"
+               transform="rotate(-82.13,2179.0513,1388.864)"
+               id="circle71" />
+            <path
+               class="cls-15"
+               d="m 1721.33,2398.36 a 40,40 0 1 0 34.19,45.15 40,40 0 0 0 -34.19,-45.15 z m -10,72.34 a 33,33 0 1 1 37.19,-28.16 33,33 0 0 1 -37.19,28.17 z"
+               style="vector-effect:non-scaling-stroke;fill:#262666"
+               transform="translate(1440.56,-447.8)"
+               id="path73"
+               inkscape:connector-curvature="0" />
+          </g>
+          <polyline
+             class="cls-14"
+             points="3282.13 2204.89 3223.31 2249.43 3267.88 1926.88 3327.72 1881.58"
+             style="vector-effect:non-scaling-stroke;fill:#04031c"
+             id="polyline77" />
+          <polygon
+             class="cls-16"
+             points="3066.51,1899.06 3126.35,1853.75 3326.83,1881.45 3267.5,1926.37 "
+             style="vector-effect:non-scaling-stroke;fill:#1e1a63"
+             id="polygon79" />
+        </g>
+      </g>
+    </symbol>
+  </defs>
+  <g
+     class="layer"
+     id="g92">
+    <title
+       id="title88">Layer 1</title>
+    <use
+       id="svg_4"
+       transform="matrix(1.87073,0,0,1.87073,-1445.28,-1047.836)"
+       x="0"
+       xlink:href="#svg_3"
+       y="0"
+       style="fill:#1a1756;fill-opacity:1;stroke:none"
+       width="100%"
+       height="100%" />
+    <g
+       id="svg_5"
+       style="vector-effect:non-scaling-stroke" />
+  </g>
+</svg>
