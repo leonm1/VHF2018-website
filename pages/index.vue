@@ -130,7 +130,20 @@ body {
 }
 
 .heading-text {
-  max-width: 45%;
+  height: 10vh;
+  width: 70vw;
+  @media (min-width: $break-s) {
+    width: 65vw;
+  }
+  @media (min-width: $break-sm) {
+    width: 60vw;
+  }
+  @media (min-width: $break-m) {
+    width: 55vw;
+  }
+  @media (min-width: $break-l) {
+    width: 50vw;
+  }
 }
 
 .top-background {
