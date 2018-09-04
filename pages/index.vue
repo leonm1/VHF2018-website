@@ -111,22 +111,31 @@ export default {
 <style lang="scss">
 @import "~/assets/scss/variables.scss";
 body {
-  background: $background; /* Old browsers */
   width: 100%;
   overflow-x: hidden;
   color: white;
-  font-size: 22px;
+  font-size: 1.4em;
+  font-family: "Sofia Pro";
 
   a {
     color: white;
   }
+
+  @media screen and (max-width: $break-l) {
+    font-size: 1em;
+  }
 }
 
 .main {
-  width: 100%;
-  display: flex;
-  flex-flow: column nowrap;
-  flex-basis: 1vh;
+  background: $background; /* Old browsers */
+  background: linear-gradient(
+    rgba(26, 23, 86, 1) 0%,
+    rgba(26, 23, 86, 1) 50%,
+    rgba(15, 11, 46, 1) 100%
+  );
+  display: grid;
+  grid-auto-flow: row;
+  grid-gap: 40px;
 }
 
 .heading-text {
@@ -150,22 +159,52 @@ body {
   background-image: url("~/assets/img/bg-top.svg");
   background-size: cover;
   background-position: right bottom;
+
+  display: grid;
+  grid-auto-flow: row;
+  grid-gap: 40px;
 }
 
 .landing-section {
-  padding: 18px;
+  padding: 20px 18px;
+  padding-top: 10vh;
   height: 100vh;
   display: flex;
   flex-flow: column nowrap;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
+
+  @media screen and (max-width: $break-m) {
+    padding-top: 30%;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+
+    aside {
+      font-size: 0.7em;
+      align-self: flex-end;
+    }
+  }
 }
 
 .logo {
-  flex: 1 1 auto;
   max-width: 100%;
-  margin: 60px;
   margin-bottom: 20px;
+  width: 290px;
+  @media (min-width: $break-s) {
+    width: 320px;
+  }
+  @media (min-width: $break-sm) {
+    width: 390px;
+  }
+  @media (min-width: $break-m) {
+    width: 495px;
+  }
+  @media (min-width: $break-l) {
+    width: 635px;
+  }
 }
 
 .apply-btn {
@@ -175,7 +214,13 @@ body {
   margin: 20px;
   background: $yellow-accent;
   border-radius: 4px;
-  flex: 0 0 auto;
+  justify-self: center;
+  transition: all 0.2s ease-out;
+  &:hover {
+    transform: scale(1.05);
+    filter: brightness(150%);
+    filter: contrast(150%);
+  }
 }
 
 .sponsor-prospectus {
@@ -187,17 +232,17 @@ body {
 }
 
 .welcome-page {
-  min-height: 100vh;
+  padding-top: 16vh;
   padding: 18px;
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-end;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) and (orientation: landscape) {
+    min-height: 100vh;
+
     .welcome {
       max-width: 60%;
-      margin-bottom: 5%;
-
       p {
         margin-left: 60px;
       }
@@ -210,7 +255,7 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: right bottom;
-  padding: 40px 18px;
+  padding: 0 18px;
 
   display: grid;
   grid:
@@ -238,7 +283,7 @@ body {
 }
 
 .schedule {
-  padding: 40px 18px;
+  padding: 0 18px;
   display: grid;
   grid:
     [row1-start] "header" auto [row1-end]

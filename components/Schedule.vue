@@ -1,6 +1,12 @@
 <style lang="scss" scoped>
 @import url("~/assets/scss/variables.scss");
 
+html {
+  // Fake rule because @import was causing a bug where the first rule
+  // wouldn't load
+  height: auto;
+}
+
 #first-date {
   color: #108243;
 }
@@ -57,7 +63,7 @@
 
 .divider {
   height: 80%;
-  background: black;
+  background: #1a1756;
   align-self: center;
   border-radius: 6px;
 }
