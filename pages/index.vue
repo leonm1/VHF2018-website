@@ -4,7 +4,9 @@
       <div class="parallax-layer base">
         <mlhbadge></mlhbadge>
       </div>
-      <div class="parallax-layer deep">
+      <div
+        <!--class="parallax-layer deep"  remove parallax as temporary fix for google chrome viewport bug-->
+      >
         <div class="logo">
           <img alt="VandyHacks V" src="~assets/img/vh-logo-date.svg"/>
           <div class="actions">
@@ -337,12 +339,12 @@ html {
 }
 
 .sponsor-prospectus {
-  position:absolute; 
+  position:absolute;
   bottom: 0px;
   left: 0px;
   margin-bottom: 30px;
   margin-left: 30px;
   color: white;
-  
+
 }
 </style>
