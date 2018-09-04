@@ -6,15 +6,23 @@
 .question {
   cursor: pointer;
   display: flex;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   font-size: 1.1em;
+  transition: all 0.3s ease-out;
+  &:hover {
+    transform: scale(1.05);
+  }
 }
 
 .title {
   display: inline-block;
-  line-height: 24px;
+  line-height: 1em;
   font-weight: normal;
-  font-size: 1.1em;
+  font-size: 1em;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.1em;
+    line-height: 24px;
+  }
 }
 
 .answer {
