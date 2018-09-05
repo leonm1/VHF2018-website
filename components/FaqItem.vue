@@ -6,15 +6,23 @@
 .question {
   cursor: pointer;
   display: flex;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   font-size: 1.1em;
+  transition: all 0.3s ease-out;
+  &:hover {
+    transform: scale(1.05);
+  }
 }
 
 .title {
   display: inline-block;
-  line-height: 24px;
-  font-weight: bold;
-  font-size: 1.1em;
+  line-height: 1em;
+  font-weight: normal;
+  font-size: 1em;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.1em;
+    line-height: 24px;
+  }
 }
 
 .answer {
@@ -28,11 +36,11 @@
 }
 
 .slide-fade-enter-active {
-  transition: all .25s ease-out;
+  transition: all 0.25s ease-out;
 }
 
 .slide-fade-leave-active {
-  transition: all .2s;
+  transition: all 0.25s ease-out;
 }
 
 .slide-fade-enter,
@@ -53,7 +61,7 @@
 .arrow {
   height: 26px;
   width: 12px;
-  transition: transform 0.25s;
+  transition: transform 0.25s ease-out;
 
   &.right {
     transform: rotate(90deg);
@@ -65,7 +73,7 @@
   <div class="faq-item">
     <div class="question" @click="open = !open">
       <div class="arrow-wrapper">
-        <img class="arrow" :class="arrowDirection" src="~assets/img/arrow.svg" />
+        <img :class="arrowDirection" class="arrow" src="~assets/img/arrow.svg" >
       </div>
       <h4 class="title">{{ title }}</h4>
     </div>
@@ -80,7 +88,10 @@
 <script>
 export default {
   props: {
-    title: String
+    title: {
+      type: String,
+      default: "Question"
+    }
   },
   data() {
     return {
@@ -89,7 +100,7 @@ export default {
   },
   computed: {
     arrowDirection() {
-      return this.open ? 'right' : 'down'
+      return this.open ? "right" : "down"
     }
   }
 }
