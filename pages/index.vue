@@ -195,6 +195,17 @@ body {
 .logo {
   max-width: 95%;
   margin-bottom: 20px;
+
+  width: 290px;
+  @media (min-width: $break-s) {
+    width: 320px;
+  }
+  @media (min-width: $break-m) {
+    width: 390px;
+  }
+  @media (min-width: $break-l) {
+    width: 495px;
+  }
 }
 
 .apply-btn {
