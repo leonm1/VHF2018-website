@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    <div class="top-background" >
+    <div class="top-background">
       <mlhbadge />
       <main class="landing-section">
         <img class="logo" alt="VandyHacks V" src="~assets/img/vh-logo-date.svg">
@@ -85,10 +85,12 @@
       <img alt="Schedule" src="~assets/img/schedule.svg" class="heading-text">
       <schedule/>
     </section>
-    <section class="sponsors">
-      <img alt="Sponsors" src="~assets/img/sponsors.svg" class="heading-text">
-    </section>
-    <sitefooter />
+    <div class="footer">
+      <section class="sponsors">
+        <img alt="Sponsors" src="~assets/img/sponsors.svg" class="heading-text">
+      </section>
+      <sitefooter />
+    </div>
   </div>
 </template>
 
@@ -97,13 +99,15 @@ import MlhBadge from "~/components/MlhBadge.vue"
 import Schedule from "~/components/Schedule.vue"
 import FaqItem from "~/components/FaqItem.vue"
 import Footer from "~/components/Footer.vue"
+import Sponsors from "~/components/Sponsors.vue"
 
 export default {
   components: {
     mlhbadge: MlhBadge,
     schedule: Schedule,
     faqitem: FaqItem,
-    sitefooter: Footer
+    sitefooter: Footer,
+    sponsors: Sponsors
   }
 }
 </script>
@@ -131,7 +135,7 @@ body {
   background: linear-gradient(
     rgba(26, 23, 86, 1) 0%,
     rgba(26, 23, 86, 1) 50%,
-    rgba(15, 11, 46, 1) 100%
+    rgba(15, 11, 46, 1) 75%
   );
   display: grid;
   grid-auto-flow: row;
@@ -183,7 +187,6 @@ body {
     align-items: center;
 
     aside {
-      font-size: 0.7em;
       align-self: flex-end;
     }
   }
@@ -208,6 +211,14 @@ body {
     filter: brightness(150%);
     filter: contrast(150%);
   }
+
+  @media screen and (max-width: 768px) {
+    padding: 16px 80px;
+    font-size: 1.6em;
+  }
+  @media screen and (max-width: 481px) {
+    padding: 16px 40px;
+  }
 }
 
 .sponsor-prospectus {
@@ -224,15 +235,15 @@ body {
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-end;
+  p {
+    margin-left: 60px;
+  }
 
   @media screen and (min-width: 768px) and (orientation: landscape) {
     min-height: 100vh;
 
     .welcome {
       max-width: 60%;
-      p {
-        margin-left: 60px;
-      }
     }
   }
 }
@@ -246,9 +257,10 @@ body {
 
   display: grid;
   grid:
-    [row1-start] "header header header header header" auto [row1-end]
-    [row2-start] "break-left left break right break-right" 1fr [row2-end]
-    / 60px 1fr 15px 1fr 60px;
+    [row1-start] "header header" auto [row1-end]
+    [row2-start] "blank left" auto [row2-end]
+    [row3-start] "blank right" auto [row2-end]
+    / 60px 1fr;
 
   & > img {
     grid-area: header;
@@ -260,12 +272,11 @@ body {
     grid-area: right;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 769px) and (orientation: landscape) {
     grid:
-      [row1-start] "header" auto [row1-end]
-      [row2-start] "left" auto [row2-end]
-      [row3-start] "right" auto [row2-end]
-      / 1fr;
+      [row1-start] "header header header header header" auto [row1-end]
+      [row2-start] "break-left left break right break-right" 1fr [row2-end]
+      / 60px 1fr 15px 1fr 60px;
   }
 }
 
@@ -280,5 +291,13 @@ body {
   & > img {
     grid-area: header;
   }
+}
+
+.sponsors {
+  background: rgba(15, 11, 46, 1) url(~assets/img/sponsors-background.svg)
+    no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: white;
 }
 </style>

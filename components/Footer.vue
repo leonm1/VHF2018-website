@@ -71,6 +71,9 @@ $hover-opacity: 0.75;
       <a href="https://www.instagram.com/vandyhacks/" target="_blank">
         <img class="icon" src="~assets/img/instagram-white.svg" alt="Instagram" >
       </a>
+      <a href="https://www.github.com/VandyHacks/" target="_blank">
+        <img class="icon" src="~assets/img/github-white.svg" alt="GitHub" >
+      </a>
     </div>
   </div>
 </template>
