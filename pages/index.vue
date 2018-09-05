@@ -190,21 +190,8 @@ body {
 }
 
 .logo {
-  max-width: 100%;
+  max-width: 95%;
   margin-bottom: 20px;
-  width: 290px;
-  @media (min-width: $break-s) {
-    width: 320px;
-  }
-  @media (min-width: $break-sm) {
-    width: 390px;
-  }
-  @media (min-width: $break-m) {
-    width: 495px;
-  }
-  @media (min-width: $break-l) {
-    width: 635px;
-  }
 }
 
 .apply-btn {
