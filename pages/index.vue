@@ -4,10 +4,10 @@
       <mlhbadge />
       <main class="landing-section">
         <img class="logo" alt="VandyHacks V" src="~assets/img/vh-logo-date.svg">
-        <a ontouchstart="" class="apply-btn" href="https://apply.vandyhacks.org/login"">Apply</a>
+        <a ontouchstart="" class="apply-btn" href="https://apply.vandyhacks.org/login">Apply</a>
         <aside class="sponsor-prospectus">
           Interested in being a sponsor? <br> Check out our
-          <a href="/sponsorship">sponsorship prospectus</a>!
+          <a href="https://apply.vandyhacks.org/sponsorship">sponsorship prospectus</a>!
         </aside>
       </main>
       <section class="welcome-page">
