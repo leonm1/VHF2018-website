@@ -1,25 +1,18 @@
 <style lang="scss" scoped>
 @import url("~/assets/scss/variables.scss");
 
+$date-color: #e89087;
+$time-color: #3897c6;
+$event-color: #0058a8;
+
 html {
-  // Fake rule because @import was causing a bug where the first rule
+  // Trash rule because @import was causing a bug where the first rule
   // wouldn't load
   height: auto;
 }
 
-#first-date {
-  color: #108243;
-}
-
-#second-date {
-  color: #0c826a;
-}
-
-#third-date {
-  color: #04a09d;
-}
-
 .date {
+  color: $date-color;
   text-align: center;
   font-weight: 800;
   margin-bottom: 1.25em;
@@ -63,9 +56,17 @@ html {
 
 .divider {
   height: 80%;
-  background: #1a1756;
+  background: $date-color;
   align-self: center;
   border-radius: 6px;
+}
+
+.event-name {
+  color: $event-color;
+}
+
+.event-time {
+  color: $time-color;
 }
 </style>
 
