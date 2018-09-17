@@ -11,7 +11,7 @@
         </aside>
       </main>
       <section class="welcome-page">
-        <img alt="Welcome" src="~assets/img/welcome.svg" class="heading-text">
+        <h2 class="heading-text">WELCOME</h2>
         <content class="welcome">
           <p>Founded in the spring of 2015, VandyHacks was the first collegiate hackathon to call Nashville, Tennessee home. Now, we're proud to bring you VandyHacks V! From November 2-4, 2018, 450+ students from colleges and universities across the nation will gather at Vanderbilt University’s Engineering and Science Building for a weekend of collaboration, innovation, and entrepreneurship.</p>
           &nbsp;
@@ -20,7 +20,7 @@
       </section>
     </div>
     <section class="faq">
-      <img alt="FAQ" src="~assets/img/faq.svg" class="heading-text">
+      <h2 class="heading-text">FAQ</h2>
       <section class="faq-column faq-left">
         <h3 class="faq-header">General</h3>
         <faqitem title="I have no idea how to code. Can I still attend?">
@@ -30,27 +30,6 @@
           Not to worry! A few weeks before the event, we'll email you our hacker guide, which contains all the information you need to make the most out of your weekend. During the event, the VandyHacks Team will be around to help answer any questions. As always, feel free to email us at
           <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a> with any questions.
         </faqitem>
-        <h3 class="faq-header">Applying</h3>
-        <faqitem title="Who can apply?">
-          Anyone who is 18 years or older and is currently enrolled in college or university with a valid student ID.
-        </faqitem>
-        <faqitem title="How does registration work?">
-          Registration is currently open!
-        </faqitem>
-        <h3 class="faq-header">Travel</h3>
-        <faqitem title="Will you be providing buses to schools?">
-          Yes, we will be providing buses to Purdue University, University of Illinois at Urbana-Champaign, Georgia Institute of Technology, and University of Florida. We may also provide a bus at Illinois Institute of Technology for the Chicagoland area if we receive enough applications and RSVPs! If you reserve a seat on the bus (coming soon) and can get to the bus stop, you can get on!
-        </faqitem>
-        <faqitem title="How do I get there if I'm not near a bus stop?">
-          We will be providing gas reimbursements for cars with 3+ hackers in them. Additionally, we may partially subsidize Greyhound and plane tickets. Contact us at
-          <a href="mailto:travel@vandyhacks.org">travel@vandyhacks.org</a> if you have any questions.
-        </faqitem>
-        <faqitem title="Will there be parking available for attendees?">
-          Yes! Attendees will be able to find parking at the 25th Avenue Garage, conveniently located next to Vanderbilt’s Engineering and Science Building. You can find it
-          <a href="https://goo.gl/maps/qST6JAvvQAz">here</a>.
-        </faqitem>
-      </section>
-      <section class="faq-column faq-right">
         <h3 class="faq-header">Event</h3>
         <faqitem title="What should I bring?">
           Be sure to bring your photo ID, laptop, phone, chargers, a change of clothes, toiletries, and any other devices you want to use. A government-issued ID is required to rent any hardware.
@@ -74,6 +53,27 @@
           Send us an email at
           <a href="mailto:mentor@vandyhacks.org">mentor@vandyhacks.org</a>.
         </faqitem>
+      </section>
+      <section class="faq-column faq-right">
+        <h3 class="faq-header">Applying</h3>
+        <faqitem title="Who can apply?">
+          Anyone who is 18 years or older and is currently enrolled in college or university with a valid student ID.
+        </faqitem>
+        <faqitem title="How does registration work?">
+          Registration is currently open!
+        </faqitem>
+        <h3 class="faq-header">Travel</h3>
+        <faqitem title="Will you be providing buses to schools?">
+          Yes, we will be providing buses to Purdue University, University of Illinois at Urbana-Champaign, Georgia Institute of Technology, and University of Florida. We may also provide a bus at Illinois Institute of Technology for the Chicagoland area if we receive enough applications and RSVPs! If you reserve a seat on the bus (coming soon) and can get to the bus stop, you can get on!
+        </faqitem>
+        <faqitem title="How do I get there if I'm not near a bus stop?">
+          We will be providing gas reimbursements for cars with 3+ hackers in them. Additionally, we may partially subsidize Greyhound and plane tickets. Contact us at
+          <a href="mailto:travel@vandyhacks.org">travel@vandyhacks.org</a> if you have any questions.
+        </faqitem>
+        <faqitem title="Will there be parking available for attendees?">
+          Yes! Attendees will be able to find parking at the 25th Avenue Garage, conveniently located next to Vanderbilt’s Engineering and Science Building. You can find it
+          <a href="https://goo.gl/maps/qST6JAvvQAz">here</a>.
+        </faqitem>
         <h3 class="faq-header">Other</h3>
         <faqitem title="I have more questions!">
           Send us an email at
@@ -82,12 +82,12 @@
       </section>
     </section>
     <section class="schedule">
-      <img alt="Schedule" src="~assets/img/schedule.svg" class="heading-text">
+      <h2 class="heading-text">SCHEDULE</h2>
       <schedule/>
     </section>
     <div class="footer">
       <section class="sponsors">
-        <img alt="Sponsors" src="~assets/img/sponsors.svg" class="heading-text">
+        <h2 class="heading-text">SPONSORS</h2>
       </section>
       <sitefooter />
     </div>
@@ -114,15 +114,24 @@ export default {
 
 <style lang="scss">
 @import "~/assets/scss/variables.scss";
+@font-face {
+  font-family: SofiaProCondBold;
+  src: url("/fonts/SofiaProCondMedium.woff");
+}
+@font-face {
+  font-family: SofiaPro;
+  src: url("/fonts/SofiaProRegular.woff");
+}
+
 body {
   width: 100%;
   overflow-x: hidden;
-  color: white;
+  color: $text-color;
   font-size: 1.4em;
-  font-family: "Sofia Pro";
+  font-family: SofiaPro;
 
   a {
-    color: white;
+    color: $text-color;
   }
 
   @media screen and (max-width: $break-l) {
@@ -130,43 +139,33 @@ body {
   }
 }
 
+.heading-text {
+  @media (min-width: $break-l) {
+    padding-left: 60px;
+  }
+  font: bold 4em SofiaProCondBold, serif;
+}
+
 .main {
   background: $background; /* Old browsers */
-  background: linear-gradient(
-    rgba(26, 23, 86, 1) 0%,
-    rgba(26, 23, 86, 1) 50%,
-    rgba(15, 11, 46, 1) 75%
-  );
   display: grid;
   grid-auto-flow: row;
   grid-gap: 40px;
-}
-
-.heading-text {
-  height: 10vh;
-  width: 70vw;
-  @media (min-width: $break-s) {
-    width: 65vw;
-  }
-  @media (min-width: $break-sm) {
-    width: 60vw;
-  }
-  @media (min-width: $break-m) {
-    width: 55vw;
-  }
-  @media (min-width: $break-l) {
-    width: 50vw;
-  }
 }
 
 .top-background {
-  background-image: url("~/assets/img/bg-top.svg");
+  background-image: url("~/assets/img/bg-portrait.svg");
   background-size: cover;
-  background-position: right bottom;
+  background-position: right top;
 
   display: grid;
   grid-auto-flow: row;
   grid-gap: 40px;
+
+  @media screen and (orientation: landscape) {
+    background-image: url("~/assets/img/bg-top.svg");
+    background-position: right bottom;
+  }
 }
 
 .landing-section {
@@ -206,14 +205,18 @@ body {
   @media (min-width: $break-l) {
     width: 495px;
   }
+
+  @media (max-width: $break-l) {
+    justify-self: center;
+  }
 }
 
 .apply-btn {
-  color: $background;
+  color: $apply-btn-text-color;
   text-decoration: none;
   padding: 8px 40px;
   margin: 20px;
-  background: $yellow-accent;
+  background: $accent;
   border-radius: 4px;
   justify-self: center;
   transition: all 0.2s ease-out;
@@ -246,12 +249,12 @@ body {
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-end;
-  p {
-    margin-left: 60px;
-  }
 
-  @media screen and (min-width: 768px) and (orientation: landscape) {
+  @media screen and (min-width: $break-l) and (orientation: landscape) {
     min-height: 100vh;
+    p {
+      margin-left: 60px;
+    }
 
     .welcome {
       max-width: 60%;
@@ -260,6 +263,7 @@ body {
 }
 
 .faq {
+  background-color: $background;
   background-image: url("~/assets/img/faq-background.svg");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -271,7 +275,7 @@ body {
     [row1-start] "header header" auto [row1-end]
     [row2-start] "blank left" auto [row2-end]
     [row3-start] "blank right" auto [row2-end]
-    / 60px 1fr;
+    / 0px 1fr;
 
   & > img {
     grid-area: header;
@@ -283,7 +287,7 @@ body {
     grid-area: right;
   }
 
-  @media screen and (min-width: 769px) and (orientation: landscape) {
+  @media screen and (min-width: $break-l) and (orientation: landscape) {
     grid:
       [row1-start] "header header header header header" auto [row1-end]
       [row2-start] "break-left left break right break-right" 1fr [row2-end]
@@ -305,10 +309,9 @@ body {
 }
 
 .sponsors {
-  background: rgba(15, 11, 46, 1) url(~assets/img/sponsors-background.svg)
-    no-repeat;
+  background: $background url(~assets/img/sponsors-background.svg) no-repeat;
   background-position: center center;
   background-size: cover;
-  color: white;
+  color: $text-color;
 }
 </style>
