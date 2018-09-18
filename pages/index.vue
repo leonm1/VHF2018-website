@@ -9,7 +9,7 @@
           Interested in being a sponsor? <br> Check out our
           <a href="https://apply.vandyhacks.org/sponsorship">sponsorship prospectus</a>!
         </aside>
-        <img style="transform: rotate(90deg);" class="arrow" src="~assets/img/arrow.svg" onClick="document.getElementsByClassName('welcome-page')[0].scrollIntoView({behavior: 'smooth'});">
+        <img class="scrollarrow" src="~assets/img/arrow.svg" onClick="document.getElementsByClassName('welcome-page')[0].scrollIntoView({behavior: 'smooth'});">
       </main>
       <section class="welcome-page">
         <h2 class="heading-text">WELCOME</h2>
@@ -245,6 +245,12 @@ body {
   @media screen and (max-width: 481px) {
     padding: 16px 40px;
   }
+}
+
+.scrollarrow {
+  height: 104px;
+  width: 48px;
+  transform: rotate(90deg);
 }
 
 .sponsor-prospectus {
