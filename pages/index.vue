@@ -13,9 +13,9 @@
       <section class="welcome-page">
         <h2 class="heading-text">WELCOME</h2>
         <content class="welcome">
-          <p>Founded in the spring of 2015, VandyHacks was the first collegiate hackathon to call Nashville, Tennessee home. Now, we're proud to bring you VandyHacks V! From November 2-4, 2018, 450+ students from colleges and universities across the nation will gather at Vanderbilt University’s Engineering and Science Building for a weekend of collaboration, innovation, and entrepreneurship.</p>
+          <p>Welcome to Music City! Founded in the spring of 2015, VandyHacks was the first collegiate hackathon to call Nashville, Tennessee home. Now, we're proud to bring you VandyHacks V! </p>
           &nbsp;
-          <p>For 36 hours, participants will work together to bring their ideas to life - and have lots of fun doing it! VandyHacks welcomes beginners, and we encourage all students to apply, regardless of their major or background.</p>
+          <p>From November 2-4, 400+ students from colleges and universities across the nation will gather at Vanderbilt University’s Engineering and Science Building for a weekend of collaboration, innovation, and entrepreneurship. For 36 hours, participants will work together to bring their ideas to life - and have lots of fun doing it! We also have some great workshops lined up to help kickstart your projects. VandyHacks welcomes beginners, and we encourage students of all majors and disciplines to apply!</p>
         </content>
       </section>
     </div>
@@ -23,12 +23,14 @@
       <h2 class="heading-text">FAQ</h2>
       <section class="faq-column faq-left">
         <h3 class="faq-header">General</h3>
+        <faqitem title="What is a hackathon?">
+          Hackathons are events where students from across the country come together for a weekend of innovation and creativity. Participants have 36 hours to create anything that shows off their creativity and passion for development. You may choose any platform, programming language, or format to show your stuff. You can even present a storyboard or idea; there’s no end to the possibilities!
+        </faqitem>
         <faqitem title="I have no idea how to code. Can I still attend?">
           Even more reason for you to come! We will be hosting beginners' workshops for you to get started, and our mentors can help you out along the way. We greatly encourage new hackers to attend, and no prior experience is necessary!
         </faqitem>
         <faqitem title="What if I've never been to a hackathon?">
-          Not to worry! A few weeks before the event, we'll email you our hacker guide, which contains all the information you need to make the most out of your weekend. During the event, the VandyHacks Team will be around to help answer any questions. As always, feel free to email us at
-          <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a> with any questions.
+          Not to worry! A few weeks before the event, you’ll receive an email with a link to our hacker guide, which will contain all the information you need to make the most out of your weekend. During the event, the VandyHacks Team will be around to help answer any questions. As always, feel free to email us at <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a> with any questions you may have.
         </faqitem>
         <h3 class="faq-header">Event</h3>
         <faqitem title="What should I bring?">
@@ -37,7 +39,7 @@
         <faqitem title="Where will I sleep?">
           We will have designated quiet rooms, so bring a blanket and pillow!
         </faqitem>
-        <faqitem title="Is food provided?">
+        <faqitem title="What will I eat?">
           Meals will be provided throughout the event, starting with Friday dinner and ending with lunch on Sunday. Snacks will also be provided periodically. Vegetarian and gluten-free options are available. Please indicate any allergies or dietary restrictions on your application.
         </faqitem>
         <faqitem title="How are teams formed? Do I need a team?">
@@ -51,20 +53,29 @@
         </faqitem>
         <faqitem title="What if I’m interested in being a mentor?">
           Send us an email at
-          <a href="mailto:mentor@vandyhacks.org">mentor@vandyhacks.org</a>.
+          <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a>.
         </faqitem>
       </section>
       <section class="faq-column faq-right">
         <h3 class="faq-header">Applying</h3>
         <faqitem title="Who can apply?">
-          Anyone who is 18 years or older and is currently enrolled in college or university with a valid student ID.
+          Anyone who is 18 years or older (we will be checking ID) and is currently enrolled in college or university with a valid student ID. International students are invited to apply and attend, but we cannot guarantee full travel reimbursement.
         </faqitem>
         <faqitem title="How does registration work?">
-          Registration is currently open!
+          Applications are now open! Acceptance is determined by a variety of factors, and applications will be reviewed by our board on a rolling basis. Once you’re accepted, you’ll receive an email from the VandyHacks team. If you're curious, email us for more info at <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a>
         </faqitem>
-        <h3 class="faq-header">Travel</h3>
-        <faqitem title="Will you be providing buses to schools?">
-          Yes, we will be providing buses to Purdue University, University of Illinois at Urbana-Champaign, Georgia Institute of Technology, and University of Florida. We may also provide a bus at Illinois Institute of Technology for the Chicagoland area if we receive enough applications and RSVPs! If you reserve a seat on the bus (coming soon) and can get to the bus stop, you can get on!
+        <faqitem title="What if I'm a Vanderbilt student?">
+          All Vanderbilt students are encouraged to attend, regardless of major or background. 
+        </faqitem>
+        <faqitem title="Are walk-ins allowed?">
+          We ask that everyone complete an application, but walk-ins will be accepted if space allows. We cannot guarantee swag for walk-ins.
+        </faqitem>
+        <h3 class="faq-header">Logistics</h3>
+        <faqitem title="How do I get there?">
+          Cars, buses, or flights, depending on location! We'll be sending buses to specific schools with large numbers of applicants.
+        </faqitem>
+        <faqitem title="Will travel reimbursements be provided??">
+          Travel reimbursements outside of the bus routes are tentative and will be awarded on a rolling basis.
         </faqitem>
         <faqitem title="How do I get there if I'm not near a bus stop?">
           We will be providing gas reimbursements for cars with 3+ hackers in them. Additionally, we may partially subsidize Greyhound and plane tickets. Contact us at
