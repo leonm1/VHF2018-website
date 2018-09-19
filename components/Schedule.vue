@@ -59,6 +59,7 @@ html {
   background: $date-color;
   align-self: center;
   border-radius: 6px;
+  margin-top: 60px;
 }
 
 .event-name {
