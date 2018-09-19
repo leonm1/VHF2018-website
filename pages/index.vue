@@ -100,6 +100,7 @@
     <div class="footer">
       <section class="sponsors">
         <h2 class="heading-text">SPONSORS</h2>
+        <sponsors/>
       </section>
       <sitefooter />
     </div>
