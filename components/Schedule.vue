@@ -89,23 +89,23 @@ html {
         </div>
         <div class="event">
           <div class="event-name">hacking begins</div>
-          <div class="event-time">10:00p</div>
+          <div class="event-time">9:00p</div>
         </div>
         <div class="event">
           <div class="event-name">pitch session</div>
-          <div class="event-time">10:00p</div>
+          <div class="event-time">9:00p</div>
         </div>
         <div class="event">
           <div class="event-name">git tech talk</div>
-          <div class="event-time">10:00p</div>
+          <div class="event-time">9:00p</div>
         </div>
         <div class="event">
           <div class="event-name">beginner switch session</div>
-          <div class="event-time">10:30p</div>
+          <div class="event-time">9:30p</div>
         </div>
         <div class="event">
           <div class="event-name">beginner tech talks</div>
-          <div class="event-time">11:00p</div>
+          <div class="event-time">10:00p</div>
         </div>
       </div>
     </div>
@@ -118,7 +118,7 @@ html {
           <div class="event-time">12:00a</div>
         </div>
         <div class="event">
-          <div class="event-name">intermediate tech talks</div>
+          <div class="event-name">sponsor tech talks</div>
           <div class="event-time">12:00a</div>
         </div>
         <div class="event">
@@ -142,7 +142,7 @@ html {
           <div class="event-time">7:00p</div>
         </div>
         <div class="event">
-          <div class="event-name">werewolf, hosted by MLH</div>
+          <div class="event-name">cup stacking, hosted by MLH</div>
           <div class="event-time">9:00p</div>
         </div>
       </div>
