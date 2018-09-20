@@ -1,9 +1,9 @@
 <style lang="scss" scoped>
-@import url("~/assets/scss/variables.scss");
+@import "~assets/scss/variables.scss";
 
 $date-color: #e89087;
-$time-color: #3897c6;
-$event-color: #0058a8;
+$time-color: $accent;
+$event-color: $header-color;
 
 html {
   // Trash rule because @import was causing a bug where the first rule

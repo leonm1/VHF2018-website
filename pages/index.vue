@@ -157,6 +157,7 @@ body {
     padding-left: 60px;
   }
   font: bold 4em SofiaProCondBold, serif;
+  color: $header-color;
 }
 
 .main {
