@@ -63,16 +63,16 @@ $hover-opacity: 0.75;
     <div class="attribution" v-html="'Made ' + ingredients + ' by the VandyHacks team'" />
     <div class="social-icons">
       <a href="https://www.facebook.com/vandyhacks/" target="_blank">
-        <img class="icon" src="~assets/img/facebook-white.svg" alt="Facebook" >
+        <img class="icon" src="~assets/img/facebook-white.svg" alt="Facebook">
       </a>
       <a href="https://twitter.com/vandyhacks" target="_blank">
-        <img class="icon" src="~assets/img/twitter-white.svg" alt="Twitter" >
+        <img class="icon" src="~assets/img/twitter-white.svg" alt="Twitter">
       </a>
       <a href="https://www.instagram.com/vandyhacks/" target="_blank">
-        <img class="icon" src="~assets/img/instagram-white.svg" alt="Instagram" >
+        <img class="icon" src="~assets/img/instagram-white.svg" alt="Instagram">
       </a>
       <a href="https://www.github.com/VandyHacks/" target="_blank">
-        <img class="icon" src="~assets/img/github-white.svg" alt="GitHub" >
+        <img class="icon" src="~assets/img/github-white.svg" alt="GitHub">
       </a>
     </div>
   </div>
@@ -83,11 +83,14 @@ export default {
   data() {
     return {
       ingredients: ""
-    }
+    };
   },
   mounted() {
     const ingredientsList = [
-      "with duct tape and spit",
+      // "with duct tape and spit",
+      "with blood, sweat, and tears",
+      "at three in the morning the day of launch",
+      "with excessively large pull requests",
       // 'with the bare minimum amount of effort possible',
       // 'using 100% free range artisanal pixels',
       // 'under extreme duress',
@@ -103,9 +106,9 @@ export default {
       "with no warranty of any kind, either express or implied,"
       // 'under penalty of perjury',
       // 'with chemicals that are known to cause cancer in the State of California'
-    ]
+    ];
     this.ingredients =
-      ingredientsList[Math.floor(Math.random() * ingredientsList.length)]
+      ingredientsList[Math.floor(Math.random() * ingredientsList.length)];
   }
-}
+};
 </script>
