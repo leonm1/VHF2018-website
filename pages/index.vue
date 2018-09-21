@@ -208,6 +208,7 @@ body {
   grid-template-rows: 1fr auto auto;
   justify-content: center;
   align-items: center;
+  height: 100%;
 
   // @media screen and (max-width: $break-m) {
   //   padding-top: 30%;
@@ -226,19 +227,9 @@ body {
 .logo {
   grid-area: logo;
   max-width: 95%;
+  max-height: 95%;
   margin-bottom: 20px;
   justify-self: center;
-
-  width: 290px;
-  @media (min-width: $break-s) {
-    width: 320px;
-  }
-  @media (min-width: $break-m) {
-    width: 390px;
-  }
-  @media (min-width: $break-l) {
-    width: 495px;
-  }
 }
 
 .apply-btn {
