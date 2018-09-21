@@ -365,7 +365,7 @@ body {
 .top-background {
   background-image: url("~/assets/img/bg-portrait.svg");
   background-size: cover;
-  background-position: right top;
+  background-position: right;
 
   display: grid;
   grid-template-rows: repeat(auto-fit, minmax(100vh, auto));
@@ -373,6 +373,7 @@ body {
   @media (orientation: landscape) and (min-width: $break-l) {
     background-image: url("~/assets/img/bg-top.svg");
     background-position: right bottom;
+    background-attachment: fixed;
   }
 }
 </style>
