@@ -208,7 +208,8 @@ body {
   grid-template-rows: 1fr auto auto;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 100vh;
+  max-height: 100vh;
 
   // @media screen and (max-width: $break-m) {
   //   padding-top: 30%;
