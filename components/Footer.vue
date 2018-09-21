@@ -83,7 +83,7 @@ export default {
   data() {
     return {
       ingredients: ""
-    }
+    };
   },
   mounted() {
     const ingredientsList = [
@@ -106,9 +106,9 @@ export default {
       "with no warranty of any kind, either express or implied,"
       // 'under penalty of perjury',
       // 'with chemicals that are known to cause cancer in the State of California'
-    ]
+    ];
     this.ingredients =
-      ingredientsList[Math.floor(Math.random() * ingredientsList.length)]
+      ingredientsList[Math.floor(Math.random() * ingredientsList.length)];
   }
-}
+};
 </script>
