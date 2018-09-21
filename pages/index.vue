@@ -1,8 +1,7 @@
 <template>
   <div class="main">
     <div class="top-background">
-      <mlhbadge />
-      <main class="landing-section">
+      <main class="landing-section page">
         <img class="logo" alt="VandyHacks V" src="~assets/img/vh-logo-date.svg">
         <a ontouchstart="" class="apply-btn" href="https://apply.vandyhacks.org/login">Apply</a>
         <aside class="sponsor-prospectus">
@@ -11,16 +10,16 @@
         </aside>
         <img class="scrollarrow" src="~assets/img/arrow.svg" onClick="document.getElementsByClassName('welcome-page')[0].scrollIntoView({behavior: 'smooth'});">
       </main>
-      <section class="welcome-page">
+      <section class="welcome-page page">
         <h2 class="heading-text">WELCOME</h2>
         <content class="welcome">
           <p>Welcome to Music City! Founded in the spring of 2015, VandyHacks was the first collegiate hackathon to call Nashville, Tennessee home. Now, we're proud to bring you VandyHacks V! </p>
-          &nbsp;  
+          &nbsp;
           <p>From November 2-4, 400+ students from colleges and universities across the nation will gather at Vanderbilt University’s Engineering and Science Building for a weekend of collaboration, innovation, and entrepreneurship. For 36 hours, participants will work together to bring their ideas to life - and have lots of fun doing it! We also have some great workshops lined up to help kickstart your projects. VandyHacks welcomes beginners, and we encourage students of all majors and disciplines to apply!</p>
         </content>
       </section>
     </div>
-    <section class="faq">
+    <section class="faq page">
       <h2 class="heading-text">FAQ</h2>
       <section class="faq-column faq-left">
         <h3 class="faq-header">General</h3>
@@ -31,7 +30,8 @@
           Even more reason for you to come! We will be hosting beginners' workshops for you to get started, and our mentors can help you out along the way. We greatly encourage new hackers to attend, and no prior experience is necessary!
         </faqitem>
         <faqitem title="What if I've never been to a hackathon?">
-          Not to worry! A few weeks before the event, you’ll receive an email with a link to our hacker guide, which will contain all the information you need to make the most out of your weekend. During the event, the VandyHacks Team will be around to help answer any questions. As always, feel free to email us at <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a> with any questions you may have.
+          Not to worry! A few weeks before the event, you’ll receive an email with a link to our hacker guide, which will contain all the information you need to make the most out of your weekend. During the event, the VandyHacks Team will be around to help answer any questions. As always, feel free to email us at
+          <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a> with any questions you may have.
         </faqitem>
         <h3 class="faq-header">Event</h3>
         <faqitem title="What should I bring?">
@@ -44,7 +44,7 @@
           Meals will be provided throughout the event, starting with Friday dinner and ending with lunch on Sunday. Snacks will also be provided periodically. Vegetarian and gluten-free options are available. Please indicate any allergies or dietary restrictions on your application.
         </faqitem>
         <faqitem title="How are teams formed? Do I need a team?">
-          Teams are limited to four people. If you're applying with a team, we will review all of your team members' applications to determine admission. We will also have a pitch session where attendees can share their ideas and find potential teammates. However, teams are not required, so feel free to work individually.
+          Teams are limited to four people. If you're applying with a team, we will review all of your team members' applications to determine admission. We will also have a pitch session where attendees can share their ideas and find potential teammates. However, teams are not required, so feel free to work insectionidually.
         </faqitem>
         <faqitem title="Will there be other activities besides hacking?">
           Of course! This year, we've has planned a bunch of fun events for attendees to relax. Stay tuned for more info!
@@ -63,10 +63,11 @@
           Anyone who is 18 years or older (we will be checking ID) and is currently enrolled in college or university with a valid student ID. International students are invited to apply and attend, but we cannot guarantee full travel reimbursement.
         </faqitem>
         <faqitem title="How does registration work?">
-          Applications are now open! Acceptance is determined by a variety of factors, and applications will be reviewed by our board on a rolling basis. Once you’re accepted, you’ll receive an email from the VandyHacks team. If you're curious, email us for more info at <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a>
+          Applications are now open! Acceptance is determined by a variety of factors, and applications will be reviewed by our board on a rolling basis. Once you’re accepted, you’ll receive an email from the VandyHacks team. If you're curious, email us for more info at
+          <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a>
         </faqitem>
         <faqitem title="What if I'm a Vanderbilt student?">
-          All Vanderbilt students are encouraged to attend, regardless of major or background. 
+          All Vanderbilt students are encouraged to attend, regardless of major or background.
         </faqitem>
         <faqitem title="Are walk-ins allowed?">
           We ask that everyone complete an application, but walk-ins will be accepted if space allows. We cannot guarantee swag for walk-ins.
@@ -93,17 +94,18 @@
         </faqitem>
       </section>
     </section>
-    <section class="schedule">
+    <section class="schedule page">
       <h2 class="heading-text">SCHEDULE</h2>
       <schedule/>
     </section>
+    <section class="sponsors page">
+      <h2 class="heading-text">SPONSORS</h2>
+      <sponsors/>
+    </section>
     <div class="footer">
-      <section class="sponsors">
-        <h2 class="heading-text">SPONSORS</h2>
-        <sponsors/>
-      </section>
       <sitefooter />
     </div>
+    <mlhbadge />
   </div>
 </template>
 
@@ -138,7 +140,8 @@ export default {
 
 body {
   width: 100%;
-  overflow-x: hidden;
+  height: 100%;
+  overflow: hidden;
   color: $text-color;
   font-size: 1.4em;
   font-family: SofiaPro;
@@ -154,60 +157,77 @@ body {
 
 .heading-text {
   @media (min-width: $break-l) {
-    padding-left: 60px;
+    padding-left: 30px; // Added to .page's 30px
   }
   font: bold 4em SofiaProCondBold, serif;
   color: $header-color;
 }
 
 .main {
-  background: $background; /* Old browsers */
-  display: grid;
-  grid-auto-flow: row;
-  grid-gap: 40px;
+  max-width: 100%;
+  height: 100vh;
+  background: $background;
+
+  // display: grid;
+  // grid-template-areas: "landing" "welcome" "faq" "schedule" "sponsors" "footer";
+  // grid-template-rows: repeat(auto-fill, minmax(100vh, max-content)) auto;
+  // grid-template-columns: 1fr;
+  // grid-auto-flow: row;
+
+  display: flex;
+  flex-flow: column nowrap;
+  flex-basis: 100vh;
+
+  overflow: auto;
+  scroll-snap-type: y proximity; // Chrome
+  scroll-snap-type-y: proximity; // Firefox compat
 }
 
-.top-background {
-  background-image: url("~/assets/img/bg-portrait.svg");
-  background-size: cover;
-  background-position: right top;
+.page {
+  flex-grow: 1;
+  width: 100%;
+  min-height: 100vh;
+  scroll-snap-coordinate: 0% 0%; // Firefox
+  scroll-snap-align: start; // Chrome
+  padding: 30px;
+  overflow: visible;
+}
 
-  display: grid;
-  grid-auto-flow: row;
-  grid-gap: 40px;
-
-  @media screen and (orientation: landscape) {
-    background-image: url("~/assets/img/bg-top.svg");
-    background-position: right bottom;
-  }
+.footer {
+  flex-shrink: 1;
+  scroll-snap-coordinate: 100% 100%; //Firefox
+  scroll-snap-start: end; // Chrome
 }
 
 .landing-section {
-  padding: 20px 18px;
+  padding: 30px 18px;
   padding-top: 10vh;
-  height: 100vh;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-areas: "logo logo" "apply apply" "sponsor-us arrow";
+  grid-template-columns: 35vw 55vw;
+  grid-template-rows: 1fr auto auto;
+  justify-content: center;
   align-items: center;
 
-  @media screen and (max-width: $break-m) {
-    padding-top: 30%;
-    display: grid;
-    grid-auto-flow: row;
-    grid-template-rows: auto;
-    justify-content: center;
-    align-items: center;
+  // @media screen and (max-width: $break-m) {
+  //   padding-top: 30%;
+  //   display: grid;
+  //   grid-auto-flow: row;
+  //   grid-template-rows: auto;
+  //   justify-content: center;
+  //   align-items: center;
 
-    aside {
-      align-self: flex-end;
-    }
-  }
+  //   aside {
+  //     align-self: flex-end;
+  //   }
+  // }
 }
 
 .logo {
+  grid-area: logo;
   max-width: 95%;
   margin-bottom: 20px;
+  justify-self: center;
 
   width: 290px;
   @media (min-width: $break-s) {
@@ -219,13 +239,10 @@ body {
   @media (min-width: $break-l) {
     width: 495px;
   }
-
-  @media (max-width: $break-l) {
-    justify-self: center;
-  }
 }
 
 .apply-btn {
+  grid-area: apply;
   color: $apply-btn-text-color;
   text-decoration: none;
   padding: 8px 40px;
@@ -250,30 +267,30 @@ body {
 }
 
 .scrollarrow {
+  grid-area: arrow;
+  position: relative;
+  left: calc(10vw - 24px);
   height: 104px;
   width: 48px;
   transform: rotate(90deg);
 }
 
 .sponsor-prospectus {
-  align-self: flex-start;
-  max-width: 50%;
-  @media screen and (max-width: $break-m) {
-    max-width: 100%;
-  }
+  justify-self: flex-start;
+  align-self: flex-end;
 }
 
 .welcome-page {
-  padding-top: 16vh;
-  padding: 18px;
+  padding-top: 8vh;
+
   display: flex;
   flex-flow: column nowrap;
-  justify-content: flex-end;
 
   @media screen and (min-width: $break-l) and (orientation: landscape) {
-    min-height: 100vh;
+    justify-content: flex-end;
+
     p {
-      margin-left: 60px;
+      margin-left: 30px;
     }
 
     .welcome {
@@ -283,19 +300,26 @@ body {
 }
 
 .faq {
+  // grid-row: 3;
   background-color: $background;
   background-image: url("~/assets/img/faq-background.svg");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: right bottom;
-  padding: 0 18px;
 
-  display: grid;
+  display: inline-grid;
+  flex: 1 0 auto;
+  padding: 30px 60px;
   grid:
-    [row1-start] "header header" auto [row1-end]
-    [row2-start] "blank left" auto [row2-end]
-    [row3-start] "blank right" auto [row2-end]
-    / 0px 1fr;
+    [row1-start] "header" auto [row1-end]
+    [row2-start] "left" auto [row2-end]
+    [row3-start] "right" auto [row2-end]
+    / 1fr;
+  grid-gap: 30px;
+
+  .heading-text {
+    padding-left: 0px;
+  }
 
   & > img {
     grid-area: header;
@@ -309,19 +333,20 @@ body {
 
   @media screen and (min-width: $break-l) and (orientation: landscape) {
     grid:
-      [row1-start] "header header header header header" auto [row1-end]
-      [row2-start] "break-left left break right break-right" 1fr [row2-end]
-      / 60px 1fr 15px 1fr 60px;
+      [row1-start] "header header" auto [row1-end]
+      [row2-start] "left right" 1fr [row2-end]
+      / 1fr 1fr;
+    line-height: 1.5em;
   }
 }
 
 .schedule {
-  padding: 0 18px;
-  display: grid;
+  flex: 1 0 auto;
+  display: inline-grid;
   grid:
     [row1-start] "header" auto [row1-end]
-    [row2-start] "content" 1fr [row2-end]
-    / 1fr;
+    [row2-start] "content" auto [row2-end]
+    / auto;
 
   & > img {
     grid-area: header;
@@ -329,9 +354,25 @@ body {
 }
 
 .sponsors {
+  scroll-snap-coordinate: 0% 0%;
   background: $background url(~assets/img/sponsors-background.svg) no-repeat;
   background-position: center center;
   background-size: cover;
-  color: $text-color;
+
+  align-self: flex-start;
+}
+
+.top-background {
+  background-image: url("~/assets/img/bg-portrait.svg");
+  background-size: cover;
+  background-position: right top;
+
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(100vh, auto));
+
+  @media (orientation: landscape) and (min-width: $break-l) {
+    background-image: url("~/assets/img/bg-top.svg");
+    background-position: right bottom;
+  }
 }
 </style>
