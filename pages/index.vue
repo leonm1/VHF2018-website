@@ -110,11 +110,11 @@
 </template>
 
 <script>
-import MlhBadge from "~/components/MlhBadge.vue"
-import Schedule from "~/components/Schedule.vue"
-import FaqItem from "~/components/FaqItem.vue"
-import Footer from "~/components/Footer.vue"
-import Sponsors from "~/components/Sponsors.vue"
+import MlhBadge from "~/components/MlhBadge.vue";
+import Schedule from "~/components/Schedule.vue";
+import FaqItem from "~/components/FaqItem.vue";
+import Footer from "~/components/Footer.vue";
+import Sponsors from "~/components/Sponsors.vue";
 
 export default {
   components: {
@@ -124,7 +124,7 @@ export default {
     sitefooter: Footer,
     sponsors: Sponsors
   }
-}
+};
 </script>
 
 <style lang="scss">
@@ -196,7 +196,7 @@ body {
 .footer {
   flex-shrink: 1;
   scroll-snap-coordinate: 100% 100%; //Firefox
-  scroll-snap-start: end; // Chrome
+  scroll-snap-align: end; // Chrome
 }
 
 .landing-section {
