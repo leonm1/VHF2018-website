@@ -44,7 +44,7 @@
           Meals will be provided throughout the event, starting with Friday dinner and ending with lunch on Sunday. Snacks will also be provided periodically. Vegetarian and gluten-free options are available. Please indicate any allergies or dietary restrictions on your application.
         </faqitem>
         <faqitem title="How are teams formed? Do I need a team?">
-          Teams are limited to four people. If you're applying with a team, we will review all of your team members' applications to determine admission. We will also have a pitch session where attendees can share their ideas and find potential teammates. However, teams are not required, so feel free to work insectionidually.
+          Teams are limited to four people. If you're applying with a team, we will review all of your team members' applications to determine admission. We will also have a pitch session where attendees can share their ideas and find potential teammates. However, teams are not required, so feel free to work idividually.
         </faqitem>
         <faqitem title="Will there be other activities besides hacking?">
           Of course! This year, we've has planned a bunch of fun events for attendees to relax. Stay tuned for more info!
