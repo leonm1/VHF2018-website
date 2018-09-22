@@ -294,7 +294,7 @@ body {
 .faq {
   // grid-row: 3;
   background-color: $background;
-  background-image: url("~/assets/img/faq-background.svg");
+  background-image: url("~/assets/img/faq-background-lighter-4.svg");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: right bottom;
