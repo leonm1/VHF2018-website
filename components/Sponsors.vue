@@ -63,8 +63,13 @@
     opacity: 1;
   }
   img:hover {
-    transform: scale(1.1);
+    transform: scale(1.04);
     opacity: 0.8;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
   }
   &.tier-1 {
     img {
