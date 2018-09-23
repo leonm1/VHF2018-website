@@ -60,11 +60,11 @@
     @media (min-width: $break-l) {
       padding: 20px;
     }
-    opacity: 1;
+    -webkit-filter: brightness(85%);
   }
   img:hover {
     transform: scale(1.04);
-    opacity: 0.8;
+    -webkit-filter: brightness(100%);
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
