@@ -102,19 +102,17 @@
       <h2 class="heading-text">SPONSORS</h2>
       <sponsors/>
     </section>
-    <div class="footer">
-      <sitefooter />
-    </div>
+    <sitefooter class="footer" />
     <mlhbadge />
   </div>
 </template>
 
 <script>
-import MlhBadge from "~/components/MlhBadge.vue"
-import Schedule from "~/components/Schedule.vue"
-import FaqItem from "~/components/FaqItem.vue"
-import Footer from "~/components/Footer.vue"
-import Sponsors from "~/components/Sponsors.vue"
+import MlhBadge from "~/components/MlhBadge.vue";
+import Schedule from "~/components/Schedule.vue";
+import FaqItem from "~/components/FaqItem.vue";
+import Footer from "~/components/Footer.vue";
+import Sponsors from "~/components/Sponsors.vue";
 
 export default {
   components: {
@@ -124,7 +122,7 @@ export default {
     sitefooter: Footer,
     sponsors: Sponsors
   }
-}
+};
 </script>
 
 <style lang="scss">
@@ -364,14 +362,18 @@ body {
 }
 
 .sponsors {
+  justify-content: space-between;
+  flex-basis: 1 1 100vh;
+
   scroll-snap-coordinate: 0% 0%;
   background: $background url(~assets/img/sponsors-background.svg) no-repeat;
   background-position: center center;
   background-size: cover;
-  min-height: auto;
 
   display: flex;
   flex-flow: column nowrap;
+
+  padding: 30px;
 }
 
 .top-background {

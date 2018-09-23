@@ -51,8 +51,14 @@
 @import "~assets/scss/variables.scss";
 
 .sponsor-row {
-  text-align: center;
+  width: 100%;
+  display: inline-flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
   img {
+    width: 100%;
     padding: 10px;
     vertical-align: middle;
     @media (min-width: $break-m) {
@@ -71,23 +77,32 @@
       transform: none;
     }
   }
+
   &.tier-1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
     img {
-      width: 100%;
-      max-width: 640px;
+      flex: 0 0 640px;
+      width: 640px;
     }
   }
   &.tier-2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
     img {
-      width: 50%;
-      max-width: 400px;
+      flex: 0 0 400px;
+      width: 400px;
     }
   }
   &.tier-3 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
     img {
-      width: 33.333%;
-      height: auto;
-      max-width: 250px;
+      flex: 0 0 250px;
+      width: 250px;
     }
   }
 }
