@@ -60,15 +60,11 @@
     @media (min-width: $break-l) {
       padding: 20px;
     }
-    -webkit-filter: brightness(85%);
+    filter: brightness(85%);
   }
   img:hover {
     transform: scale(1.04);
-    -webkit-filter: brightness(100%);
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
+    filter: brightness(100%);
     transition: all 0.3s ease;
   }
   &.tier-1 {
