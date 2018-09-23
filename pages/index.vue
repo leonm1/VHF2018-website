@@ -166,15 +166,7 @@ body {
   height: 100vh;
   background: $background;
 
-  // display: grid;
-  // grid-template-areas: "landing" "welcome" "faq" "schedule" "sponsors" "footer";
-  // grid-template-rows: repeat(auto-fill, minmax(100vh, max-content)) auto;
-  // grid-template-columns: 1fr;
-  // grid-auto-flow: row;
-
-  display: inline-flex;
-  flex-flow: column nowrap;
-  flex-basis: 100vh;
+  display: block;
 
   overflow: auto;
 
@@ -187,10 +179,8 @@ body {
 }
 
 .page {
-  flex-grow: 1;
-  width: 100%;
   min-height: 100vh;
-
+  width: 100%;
   // Skip all iOS devices
   @supports not (-webkit-overflow-scrolling: touch) {
     // Scroll snapping
@@ -203,34 +193,21 @@ body {
 }
 
 .footer {
-  flex-shrink: 1;
   scroll-snap-coordinate: 100% 100%; //Firefox
   scroll-snap-align: end; // Chrome
 }
 
 .landing-section {
+  height: 100vh;
   padding: 30px 18px;
   padding-top: 10vh;
+
   display: grid;
   grid-template-areas: "logo logo" "apply apply" "sponsor-us arrow";
   grid-template-columns: 35vw 55vw;
   grid-template-rows: 1fr auto auto;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-
-  // @media screen and (max-width: $break-m) {
-  //   padding-top: 30%;
-  //   display: grid;
-  //   grid-auto-flow: row;
-  //   grid-template-rows: auto;
-  //   justify-content: center;
-  //   align-items: center;
-
-  //   aside {
-  //     align-self: flex-end;
-  //   }
-  // }
 }
 
 .logo {
@@ -363,7 +340,6 @@ body {
 
 .sponsors {
   justify-content: space-between;
-  flex-basis: 1 1 100vh;
 
   scroll-snap-coordinate: 0% 0%;
   background: $background url(~assets/img/sponsors-background.svg) no-repeat;
