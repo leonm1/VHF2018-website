@@ -60,6 +60,11 @@
     @media (min-width: $break-l) {
       padding: 20px;
     }
+    opacity: 1;
+  }
+  img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
   }
   &.tier-1 {
     img {
