@@ -13,8 +13,8 @@ module.exports = {
         content:
           "The official website for VandyHacks V, Tennessee's premiere hackathon."
       },
-      { name: "theme-color", content: "#222a53" },
-      { "written-by": "Yunyu Lin" },
+      { name: "theme-color", content: "#07889b" },
+      { "written-by": "Matt Leon" },
       {
         property: "og:image",
         content: "https://vandyhacks.org/vh-preview.png"

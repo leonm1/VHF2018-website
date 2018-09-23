@@ -110,11 +110,11 @@
 </template>
 
 <script>
-import MlhBadge from "~/components/MlhBadge.vue"
-import Schedule from "~/components/Schedule.vue"
-import FaqItem from "~/components/FaqItem.vue"
-import Footer from "~/components/Footer.vue"
-import Sponsors from "~/components/Sponsors.vue"
+import MlhBadge from "~/components/MlhBadge.vue";
+import Schedule from "~/components/Schedule.vue";
+import FaqItem from "~/components/FaqItem.vue";
+import Footer from "~/components/Footer.vue";
+import Sponsors from "~/components/Sponsors.vue";
 
 export default {
   components: {
@@ -124,7 +124,7 @@ export default {
     sitefooter: Footer,
     sponsors: Sponsors
   }
-}
+};
 </script>
 
 <style lang="scss">
@@ -174,21 +174,32 @@ body {
   // grid-template-columns: 1fr;
   // grid-auto-flow: row;
 
-  display: flex;
+  display: inline-flex;
   flex-flow: column nowrap;
   flex-basis: 100vh;
 
   overflow: auto;
-  scroll-snap-type: y proximity; // Chrome
-  scroll-snap-type-y: proximity; // Firefox compat
+
+  // Skip all iOS devices
+  @supports not (-webkit-overflow-scrolling: touch) {
+    // Scroll snapping
+    scroll-snap-type: y proximity; // Chrome
+    scroll-snap-type-y: proximity; // Firefox compat
+  }
 }
 
 .page {
   flex-grow: 1;
   width: 100%;
   min-height: 100vh;
-  scroll-snap-coordinate: 0% 0%; // Firefox
-  scroll-snap-align: start; // Chrome
+
+  // Skip all iOS devices
+  @supports not (-webkit-overflow-scrolling: touch) {
+    // Scroll snapping
+    scroll-snap-coordinate: 0% 0%; // Firefox
+    scroll-snap-align: start; // Chrome
+  }
+
   padding: 30px;
   overflow: visible;
 }
@@ -209,7 +220,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  max-height: 100vh;
 
   // @media screen and (max-width: $break-m) {
   //   padding-top: 30%;
@@ -243,10 +253,18 @@ body {
   border-radius: 4px;
   justify-self: center;
   transition: all 0.2s ease-out;
+
   &:hover {
     transform: scale(1.05);
     filter: brightness(150%);
     filter: contrast(150%);
+
+    // Remove scaling and filtering if device doesn't support hover
+    @media (hover: none) {
+      // Must use hover: none because ff doesn't recognize hover at all
+      transform: none;
+      filter: none;
+    }
   }
 
   @media screen and (max-width: 768px) {
@@ -350,8 +368,10 @@ body {
   background: $background url(~assets/img/sponsors-background.svg) no-repeat;
   background-position: center center;
   background-size: cover;
+  min-height: auto;
 
-  align-self: flex-start;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 .top-background {
