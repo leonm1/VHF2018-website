@@ -14,6 +14,7 @@ $hover-opacity: 0.75;
   @media (min-width: $attr-break) {
     text-align: inherit;
   }
+  overflow: none;
 }
 
 .attribution {
@@ -87,25 +88,17 @@ export default {
   },
   mounted() {
     const ingredientsList = [
-      // "with duct tape and spit",
       "with blood, sweat, and tears",
       "at three in the morning the day of launch",
       "with excessively large pull requests",
-      // 'with the bare minimum amount of effort possible',
-      // 'using 100% free range artisanal pixels',
-      // 'under extreme duress',
       "with real cane sugar",
       "with juice from concentrate",
       "in an unreasonably short amount of time",
-      // 'with a keyboard',
       "with certified webscale\u2122 technologies",
       "in a galaxy far, far away",
       "using iterative Agile\u00AE methodologies",
-      // 'in mom\'s basement',
       "with this one weird trick",
       "with no warranty of any kind, either express or implied,"
-      // 'under penalty of perjury',
-      // 'with chemicals that are known to cause cancer in the State of California'
     ]
     this.ingredients =
       ingredientsList[Math.floor(Math.random() * ingredientsList.length)]
