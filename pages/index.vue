@@ -294,8 +294,8 @@ body {
 .faq {
   // grid-row: 3;
   background-color: $background;
-  background-image: url("~/assets/img/faq-background-lighter-4.svg");
-  background-size: 100%;
+  background-image: url("~/assets/img/faq-background.svg");
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: right bottom;
 
@@ -355,9 +355,9 @@ body {
 }
 
 .top-background {
-  background-image: url("~/assets/img/bg-portrait.svg");
+  background-image: url("~/assets/img/bg-portrait-lighter-4.svg");
   background-size: cover;
-  background-position: right top;
+  background-position: right bottom;
 
   display: grid;
   grid-template-rows: repeat(auto-fit, minmax(100vh, auto));
