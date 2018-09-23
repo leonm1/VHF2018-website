@@ -4,58 +4,45 @@
       <a href="https://www.microstrategy.com/us" target="_blank" rel="noopener">
         <img src="~assets/img/sponsors/microstrategy.svg" alt="MicroStrategy" >
       </a>
-    </div>
-    <!--
-    <div class="sponsor-row tier-2">
-      <a href="https://www.bnymellon.com/" target="_blank" rel="noopener">
-        <img src="~assets/img/sponsors/bnymellon.svg" alt="BNY Mellon" >
+      <a href="https://fulcrum-gt.com/" target="_blank" rel="noopener">
+        <img src="~assets/img/sponsors/fulcrum.svg" alt="Fulcrum" >
       </a>
+    </div>
+    <div class="sponsor-row tier-2">
       <a href="https://www.centene.com/" target="_blank" rel="noopener">
         <img src="~assets/img/sponsors/centene.svg" alt="Centene Corporation" >
       </a>
+      <a href="https://www.tractorsupply.com/" target="_blank" rel="noopener">
+        <img src="~assets/img/sponsors/tsc.svg" alt="Tractor Supply Co." >
+      </a>
+      <a href="https://www.redventures.com/" target="_blank" rel="noopener">
+        <img src="~assets/img/sponsors/redventures.svg" alt="RED Ventures" >
+      </a>
+
     </div>
     <div class="sponsor-row tier-3">
+      <a href="https://www.bnymellon.com/" target="_blank" rel="noopener">
+        <img src="~assets/img/sponsors/bnymellon.svg" alt="BNY Mellon" >
+      </a>
       <a href="http://www.forcexinc.com/" target="_blank" rel="noopener">
         <img src="~assets/img/sponsors/l3-forcex.svg" alt="L3 ForceX" >
       </a>
-      <a href="https://engineering.vanderbilt.edu/" target="_blank" rel="noopener">
-        <img src="~assets/img/sponsors/vuse.svg" alt="Vanderbilt University School of Engineering" >
-      </a>
-      <a href="https://www.redventures.com/" target="_blank" rel="noopener">
-        <img src="~assets/img/sponsors/rv.svg" alt="RED Ventures" >
-      </a>
+
     </div>
     <div class="sponsor-row tier-3">
-      <a href="https://www.chick-fil-a.com/" target="_blank" rel="noopener">
-        <img src="~assets/img/sponsors/chickfila.svg" alt="Chick-fil-A" >
-      </a>
       <a href="https://careers.homedepot.com/" target="_blank" rel="noopener">
         <img src="~assets/img/sponsors/homedepot.svg" alt="Home Depot" >
       </a>
       <a href="https://campus.capitalone.com/" target="_blank" rel="noopener">
         <img src="~assets/img/sponsors/capital-one.svg" alt="Capital One" >
       </a>
-    </div>
-    <div class="sponsor-row tier-3">
-      <a href="https://www.facebook.com/careers/university/" target="_blank" rel="noopener">
-        <img src="~assets/img/sponsors/fb-family.svg" alt="Facebook" >
+      <a href="https://www.dollargeneral.com/" target="_blank" rel="noopener">
+        <img src="~assets/img/sponsors/dollargeneral.svg" alt="Dollar General" >
       </a>
-      <a href="https://www.twilio.com/" target="_blank" rel="noopener">
-        <img src="~assets/img/sponsors/twilio.svg" alt="Twilio" >
-      </a>
-      <a href="https://www.stickermule.com/uses/laptop-stickers" target="_blank" rel="noopener">
-        <img src="~assets/img/sponsors/stickermule.svg" alt="StickerMule" >
+      <a href="https://www.bosframework.com/" target="_blank" rel="noopener">
+        <img src="~assets/img/sponsors/bosframework.svg" alt="BOS Framework" >
       </a>
     </div>
-    <div class="sponsor-row tier-3">
-      <a href="https://fly.io/" target="_blank" rel="noopener">
-        <img src="~assets/img/sponsors/flyio.svg" alt="Fly.io" >
-      </a>
-      <a href="https://commons.vanderbilt.edu/" target="_blank" rel="noopener">
-        <img src="~assets/img/sponsors/ingramcommons.svg" alt="The Martha Rivers Ingram Commons" >
-      </a>
-    </div>
-    -->
   </div>
 </template>
 
@@ -77,19 +64,20 @@
   &.tier-1 {
     img {
       width: 100%;
-      max-width: 600px;
+      max-width: 640px;
     }
   }
   &.tier-2 {
     img {
       width: 50%;
-      max-width: 360px;
+      max-width: 400px;
     }
   }
   &.tier-3 {
     img {
       width: 33.333%;
       height: auto;
+      max-width: 250px;
     }
   }
 }
