@@ -15,17 +15,17 @@
       <a href="https://www.tractorsupply.com/" target="_blank" rel="noopener">
         <img src="~assets/img/sponsors/tsc.svg" alt="Tractor Supply Co." >
       </a>
-      <a href="https://www.redventures.com/" target="_blank" rel="noopener">
-        <img src="~assets/img/sponsors/redventures.svg" alt="RED Ventures" >
+      <a href="http://www.forcexinc.com/" target="_blank" rel="noopener">
+        <img src="~assets/img/sponsors/l3-forcex.svg" alt="L3 ForceX" >
       </a>
 
     </div>
-    <div class="sponsor-row tier-3">
+    <div class="sponsor-row tier-2">
       <a href="https://www.bnymellon.com/" target="_blank" rel="noopener">
         <img src="~assets/img/sponsors/bnymellon.svg" alt="BNY Mellon" >
       </a>
-      <a href="http://www.forcexinc.com/" target="_blank" rel="noopener">
-        <img src="~assets/img/sponsors/l3-forcex.svg" alt="L3 ForceX" >
+      <a href="https://www.redventures.com/" target="_blank" rel="noopener">
+        <img src="~assets/img/sponsors/redventures.svg" alt="RED Ventures" >
       </a>
 
     </div>
