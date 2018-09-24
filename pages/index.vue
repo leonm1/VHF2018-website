@@ -199,7 +199,7 @@ body {
 }
 
 .landing-section {
-  min-height: 100vh;
+  height: 100vh;
   padding: 30px 18px;
   padding-top: 10vh;
 
