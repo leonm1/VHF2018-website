@@ -163,6 +163,7 @@ body {
 
 .main {
   max-width: 100%;
+  height: 100vh;
   background: $background;
 
   display: block;
@@ -198,7 +199,7 @@ body {
 }
 
 .landing-section {
-  height: 100vh;
+  min-height: 100vh;
   padding: 30px 18px;
   padding-top: 10vh;
 
