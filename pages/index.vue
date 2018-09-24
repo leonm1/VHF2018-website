@@ -163,7 +163,6 @@ body {
 
 .main {
   max-width: 100%;
-  height: 100vh;
   background: $background;
 
   display: block;
