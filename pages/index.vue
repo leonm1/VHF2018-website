@@ -170,6 +170,7 @@ body {
 
   overflow: auto;
 
+  -webkit-overflow-scrolling: touch;
   // Skip all iOS devices
   @supports not (-webkit-overflow-scrolling: touch) {
     // Scroll snapping
