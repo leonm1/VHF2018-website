@@ -181,6 +181,7 @@ body {
 .page {
   min-height: 100vh;
   width: 100%;
+
   // Skip all iOS devices
   @supports not (-webkit-overflow-scrolling: touch) {
     // Scroll snapping
@@ -294,7 +295,6 @@ body {
 
   display: inline-grid;
   flex: 1 0 auto;
-  padding: 30px 60px;
   grid:
     [row1-start] "header" auto [row1-end]
     [row2-start] "left" auto [row2-end]
@@ -303,7 +303,7 @@ body {
   grid-gap: 30px;
 
   .heading-text {
-    padding-left: 0px;
+    padding-left: 30px;
   }
 
   & > img {
@@ -322,6 +322,11 @@ body {
       [row2-start] "left right" 1fr [row2-end]
       / 1fr 1fr;
     line-height: 1.5em;
+
+    padding: 30px 60px;
+    .heading-text {
+      padding-left: 0px;
+    }
   }
 }
 
@@ -339,7 +344,8 @@ body {
 }
 
 .sponsors {
-  justify-content: space-between;
+  min-height: calc(100vh - 60px);
+  justify-content: flex-start;
 
   scroll-snap-coordinate: 0% 0%;
   background: $background url(~assets/img/sponsors-background.svg) no-repeat;

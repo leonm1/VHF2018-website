@@ -52,10 +52,7 @@
 
 .sponsor-row {
   width: 100%;
-  display: inline-flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 
   img {
     width: 100%;
@@ -79,30 +76,22 @@
   }
 
   &.tier-1 {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
     img {
-      flex: 0 0 640px;
-      width: 640px;
+      width: 100%;
+      max-width: 640px;
     }
   }
   &.tier-2 {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
     img {
-      flex: 0 0 400px;
-      width: 400px;
+      width: 50%;
+      max-width: 400px;
     }
   }
   &.tier-3 {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
     img {
-      flex: 0 0 250px;
-      width: 250px;
+      width: 33.333%;
+      height: auto;
+      max-width: 250px;
     }
   }
 }
